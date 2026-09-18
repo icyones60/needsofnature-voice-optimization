@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "package": "com.codex.stagevoice.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientAnimationRuntimeMixin",
+    "PlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

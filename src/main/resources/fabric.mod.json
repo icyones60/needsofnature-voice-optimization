@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "stagevoice",
+  "version": "${version}",
+  "name": "NeedsOfNature Voice Optimization",
+  "description": "该模组为NoN配置了动画阶段的音频，主要包含三个阶段：high→climax→gasping，以及受伤音频的覆盖。自带的音频包，可在设置中自行配置。",
+  "icon": "icon.png",
+  "authors": ["Ibukicha"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.codex.stagevoice.StageVoiceClient"
+    ],
+    "modmenu": [
+      "com.codex.stagevoice.StageVoiceModMenu"
+    ]
+  },
+  "mixins": [
+    "stagevoice.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "needsofnature": ">=1.4.4",
+    "modmenu": ">=17.0.0",
+    "cloth-config": ">=21.11.153"
+  }
+}
