@@ -2,10 +2,14 @@ package com.codex.stagevoice;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
+import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.sound.EntityTrackingSoundInstance;
 import net.minecraft.client.sound.SoundInstance;
+import net.minecraft.client.util.InputUtil;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -26,11 +30,16 @@ import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.function.DoubleSupplier;
+import java.util.function.LongSupplier;
+import java.util.function.Supplier;
 
 public final class StageVoiceClient implements ClientModInitializer {
     private static final String MOD_ID = "stagevoice";
     private static final String NON_RUNTIME = "com.nonid.internal.animation.client.runtime.ClientAnimationRuntime";
     private static final Identifier FEMALE_HURT_SOUND = Identifier.of("wildfire_gender", "female_hurt");
+    private static final KeyBinding.Category KEY_CATEGORY = KeyBinding.Category.create(
+            Identifier.of(MOD_ID, "controls"));
     private static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     private static final StageVoiceConfig CONFIG = new StageVoiceConfig(LOGGER);
     private static final List<String> GASPING_MARKERS = List.of(
@@ -47,6 +56,14 @@ public final class StageVoiceClient implements ClientModInitializer {
     private static final Map<UUID, TrackedInstance> TRACKED = new HashMap<>();
     private static final Map<UUID, QueuedStart> QUEUED_STARTS = new HashMap<>();
     private static final Map<UUID, PlayingSound> PLAYING_SOUNDS = new HashMap<>();
+    private static KeyBinding openSettingsKey;
+    private static List<SoundInstance> previewLayers = List.of();
+    private static Screen previewOwner;
+    private static Supplier<VoicePack> previewPack;
+    private static StageBand previewBand;
+    private static DoubleSupplier previewVolume;
+    private static LongSupplier previewDelayMillis;
+    private static long nextPreviewMillis;
     private static RuntimeAccess runtime;
     private static boolean runtimeWarningLogged;
 
@@ -73,6 +90,11 @@ public final class StageVoiceClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         CONFIG.initialize();
+        openSettingsKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
+                "key.stagevoice.open_settings",
+                InputUtil.Type.KEYSYM,
+                InputUtil.UNKNOWN_KEY.getCode(),
+                KEY_CATEGORY));
         ClientTickEvents.END_CLIENT_TICK.register(StageVoiceClient::tick);
         LOGGER.info("NeedsOfNature Voice Optimization initialized; animation and female hurt audio is enabled");
     }
@@ -83,6 +105,39 @@ public final class StageVoiceClient implements ClientModInitializer {
 
     static void onConfigSaved() {
         updateWaitingDelays(monotonicMillis());
+    }
+
+    static boolean canPreview() {
+        MinecraftClient client = MinecraftClient.getInstance();
+        return client.world != null && client.player != null;
+    }
+
+    static void preview(Supplier<VoicePack> pack, String bandId,
+                        DoubleSupplier volume, LongSupplier delayMillis, Screen owner) {
+        MinecraftClient client = MinecraftClient.getInstance();
+        if (client.world == null || client.player == null || owner == null) return;
+
+        stopPreview();
+        previewOwner = owner;
+        previewPack = pack;
+        previewBand = StageBand.byId(bandId);
+        previewVolume = volume;
+        previewDelayMillis = delayMillis;
+        playPreviewSound(client, monotonicMillis());
+    }
+
+    static void stopPreview() {
+        MinecraftClient client = MinecraftClient.getInstance();
+        for (SoundInstance layer : previewLayers) {
+            client.getSoundManager().stop(layer);
+        }
+        previewLayers = List.of();
+        previewOwner = null;
+        previewPack = null;
+        previewBand = null;
+        previewVolume = null;
+        previewDelayMillis = null;
+        nextPreviewMillis = 0L;
     }
 
     /** Replaces Female Gender Mod's female hurt sound without changing its trigger conditions. */
@@ -142,6 +197,8 @@ public final class StageVoiceClient implements ClientModInitializer {
     }
 
     private static void tick(MinecraftClient client) {
+        handleSettingsKey(client);
+        updatePreview(client);
         if (client.world == null || client.player == null) {
             clearClientState();
             return;
@@ -171,6 +228,49 @@ public final class StageVoiceClient implements ClientModInitializer {
         TRACKED.keySet().removeIf(instanceId -> !seen.contains(instanceId));
         observeStages(access, nowTick, nowMillis, anchors);
         playDueSounds(client, nowMillis);
+    }
+
+    private static void handleSettingsKey(MinecraftClient client) {
+        while (openSettingsKey != null && openSettingsKey.wasPressed()) {
+            if (client.currentScreen == null) {
+                client.setScreen(StageVoiceModMenu.createConfigScreen(null));
+            }
+        }
+    }
+
+    private static void updatePreview(MinecraftClient client) {
+        if (previewOwner == null) return;
+        if (client.currentScreen != previewOwner || client.world == null || client.player == null) {
+            stopPreview();
+            return;
+        }
+
+        long nowMillis = monotonicMillis();
+        if (!previewLayers.isEmpty()) {
+            boolean playing = previewLayers.stream().anyMatch(client.getSoundManager()::isPlaying);
+            if (playing) return;
+            previewLayers = List.of();
+            nextPreviewMillis = delayDeadline(nowMillis, previewDelayMillis.getAsLong());
+        }
+
+        if (nowMillis >= nextPreviewMillis) playPreviewSound(client, nowMillis);
+    }
+
+    private static void playPreviewSound(MinecraftClient client, long nowMillis) {
+        float volume = (float) previewVolume.getAsDouble();
+        if (!Float.isFinite(volume) || volume <= 0.0f) {
+            nextPreviewMillis = delayDeadline(nowMillis, previewDelayMillis.getAsLong());
+            return;
+        }
+
+        previewLayers = createGainLayers(
+                randomSound(previewPack.get(), previewBand),
+                client.player,
+                Math.clamp(volume, 0.0f, 5.0f));
+        nextPreviewMillis = Long.MAX_VALUE;
+        for (SoundInstance layer : previewLayers) {
+            client.getSoundManager().play(layer);
+        }
     }
 
     private static void registerQueuedStarts(MinecraftClient client, long nowTick, long nowMillis,
@@ -455,7 +555,11 @@ public final class StageVoiceClient implements ClientModInitializer {
     }
 
     private static long delayDeadline(long nowMillis) {
-        long delayMillis = CONFIG.delayMillis();
+        return delayDeadline(nowMillis, CONFIG.delayMillis());
+    }
+
+    private static long delayDeadline(long nowMillis, long requestedDelayMillis) {
+        long delayMillis = Math.max(0L, requestedDelayMillis);
         return delayMillis > Long.MAX_VALUE - nowMillis
                 ? Long.MAX_VALUE
                 : nowMillis + delayMillis;
@@ -503,6 +607,13 @@ public final class StageVoiceClient implements ClientModInitializer {
         }
 
         private final String id = name().toLowerCase(Locale.ROOT);
+
+        private static StageBand byId(String id) {
+            for (StageBand band : values()) {
+                if (band.id.equals(id)) return band;
+            }
+            throw new IllegalArgumentException("Unknown voice band: " + id);
+        }
     }
 
     private static final class TrackedInstance {
