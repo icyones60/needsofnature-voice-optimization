@@ -37,7 +37,3 @@
 ## 许可
 
 Copyright (c) 2026 Ibukicha. All rights reserved.
-
-除权利人明确书面授权外，不得复制、修改、再发布或用于其他项目。第三方模组及其商标归各自权利人所有。本项目与 NeedsOfNature、Female Gender Mod 的原作者不存在官方隶属关系。
-
-公开源码仅用于查看和审计，不改变上述许可。
