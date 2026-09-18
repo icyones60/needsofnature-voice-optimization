@@ -9,7 +9,7 @@ This repository contains the Java source code and build configuration. Bundled a
 - Plays `high`, `climax`, and `gasping` voice groups based on the current NeedsOfNature animation stage.
 - Provides Mod Menu settings for volume, playback delay, and the bundled voice pack used by each stage.
 - Adds a configurable control binding that opens the voice settings in game.
-- Loops random previews for each configured voice group using the current playback delay until stopped or the settings screen closes.
+- Adds play and stop controls below each voice pack selector for previewing one random clip.
 - Replaces the `wildfire_gender:female_hurt` sound.
 - Runs on the client only.
 
@@ -33,7 +33,7 @@ Do not install multiple versions of this mod at the same time.
 SHA-256 for the `v1.2.1` JAR:
 
 ```text
-EAC9E12866538C79E4AA55B165831128C6261ABA58CCA7ED730F1AFBA77063DD
+01E0213EDF6EFC94D60BCCB1EAE7A863BA1AE84B1A4941E37B2BC60524432D0E
 ```
 
 ## License

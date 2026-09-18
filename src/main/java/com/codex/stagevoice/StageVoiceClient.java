@@ -30,9 +30,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.ThreadLocalRandom;
-import java.util.function.DoubleSupplier;
-import java.util.function.LongSupplier;
-import java.util.function.Supplier;
 
 public final class StageVoiceClient implements ClientModInitializer {
     private static final String MOD_ID = "stagevoice";
@@ -59,11 +56,6 @@ public final class StageVoiceClient implements ClientModInitializer {
     private static KeyBinding openSettingsKey;
     private static List<SoundInstance> previewLayers = List.of();
     private static Screen previewOwner;
-    private static Supplier<VoicePack> previewPack;
-    private static StageBand previewBand;
-    private static DoubleSupplier previewVolume;
-    private static LongSupplier previewDelayMillis;
-    private static long nextPreviewMillis;
     private static RuntimeAccess runtime;
     private static boolean runtimeWarningLogged;
 
@@ -112,18 +104,17 @@ public final class StageVoiceClient implements ClientModInitializer {
         return client.world != null && client.player != null;
     }
 
-    static void preview(Supplier<VoicePack> pack, String bandId,
-                        DoubleSupplier volume, LongSupplier delayMillis, Screen owner) {
+    static void preview(VoicePack pack, String bandId, float volume, Screen owner) {
         MinecraftClient client = MinecraftClient.getInstance();
-        if (client.world == null || client.player == null || owner == null) return;
+        if (client.world == null || client.player == null || owner == null || volume <= 0.0f) return;
 
         stopPreview();
+        StageBand band = StageBand.byId(bandId);
+        previewLayers = createGainLayers(randomSound(pack, band), client.player, volume);
         previewOwner = owner;
-        previewPack = pack;
-        previewBand = StageBand.byId(bandId);
-        previewVolume = volume;
-        previewDelayMillis = delayMillis;
-        playPreviewSound(client, monotonicMillis());
+        for (SoundInstance layer : previewLayers) {
+            client.getSoundManager().play(layer);
+        }
     }
 
     static void stopPreview() {
@@ -133,11 +124,6 @@ public final class StageVoiceClient implements ClientModInitializer {
         }
         previewLayers = List.of();
         previewOwner = null;
-        previewPack = null;
-        previewBand = null;
-        previewVolume = null;
-        previewDelayMillis = null;
-        nextPreviewMillis = 0L;
     }
 
     /** Replaces Female Gender Mod's female hurt sound without changing its trigger conditions. */
@@ -239,37 +225,14 @@ public final class StageVoiceClient implements ClientModInitializer {
     }
 
     private static void updatePreview(MinecraftClient client) {
-        if (previewOwner == null) return;
+        if (previewLayers.isEmpty()) return;
         if (client.currentScreen != previewOwner || client.world == null || client.player == null) {
             stopPreview();
             return;
         }
-
-        long nowMillis = monotonicMillis();
-        if (!previewLayers.isEmpty()) {
-            boolean playing = previewLayers.stream().anyMatch(client.getSoundManager()::isPlaying);
-            if (playing) return;
+        if (previewLayers.stream().noneMatch(client.getSoundManager()::isPlaying)) {
             previewLayers = List.of();
-            nextPreviewMillis = delayDeadline(nowMillis, previewDelayMillis.getAsLong());
-        }
-
-        if (nowMillis >= nextPreviewMillis) playPreviewSound(client, nowMillis);
-    }
-
-    private static void playPreviewSound(MinecraftClient client, long nowMillis) {
-        float volume = (float) previewVolume.getAsDouble();
-        if (!Float.isFinite(volume) || volume <= 0.0f) {
-            nextPreviewMillis = delayDeadline(nowMillis, previewDelayMillis.getAsLong());
-            return;
-        }
-
-        previewLayers = createGainLayers(
-                randomSound(previewPack.get(), previewBand),
-                client.player,
-                Math.clamp(volume, 0.0f, 5.0f));
-        nextPreviewMillis = Long.MAX_VALUE;
-        for (SoundInstance layer : previewLayers) {
-            client.getSoundManager().play(layer);
+            previewOwner = null;
         }
     }
 
@@ -555,11 +518,7 @@ public final class StageVoiceClient implements ClientModInitializer {
     }
 
     private static long delayDeadline(long nowMillis) {
-        return delayDeadline(nowMillis, CONFIG.delayMillis());
-    }
-
-    private static long delayDeadline(long nowMillis, long requestedDelayMillis) {
-        long delayMillis = Math.max(0L, requestedDelayMillis);
+        long delayMillis = CONFIG.delayMillis();
         return delayMillis > Long.MAX_VALUE - nowMillis
                 ? Long.MAX_VALUE
                 : nowMillis + delayMillis;

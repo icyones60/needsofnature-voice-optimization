@@ -6,7 +6,6 @@ import me.shedaniel.clothconfig2.api.ConfigBuilder;
 import me.shedaniel.clothconfig2.api.ConfigCategory;
 import me.shedaniel.clothconfig2.api.ConfigEntryBuilder;
 import me.shedaniel.clothconfig2.gui.entries.IntegerSliderEntry;
-import me.shedaniel.clothconfig2.gui.entries.LongListEntry;
 import me.shedaniel.clothconfig2.gui.entries.SelectionListEntry;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.text.Text;
@@ -28,14 +27,12 @@ public final class StageVoiceModMenu implements ModMenuApi {
         ConfigCategory category = builder.getOrCreateCategory(Text.literal("语音设置"));
         ConfigEntryBuilder entries = builder.entryBuilder();
 
-        LongListEntry delayEntry = entries.startLongField(
-                        Text.literal("循环延迟（毫秒）"), config.delayMillis())
+        category.addEntry(entries.startLongField(Text.literal("循环延迟（毫秒）"), config.delayMillis())
                 .setDefaultValue(DEFAULT_DELAY_MILLIS)
                 .setMin(0L)
                 .setTooltip(Text.literal("适用于 high、gasping 和 climax。每段播完后等待该时间再播放下一段。"))
                 .setSaveConsumer(config::setDelayMillis)
-                .build();
-        category.addEntry(delayEntry);
+                .build());
 
         int volumePercent = Math.round(config.volume() * 100.0f);
         IntegerSliderEntry volumeEntry = entries.startIntSlider(
@@ -54,7 +51,7 @@ public final class StageVoiceModMenu implements ModMenuApi {
                 VoicePack.DEFAULT,
                 config::setHighPack);
         category.addEntry(highEntry);
-        category.addEntry(previewEntry("试听 high", highEntry, "high", volumeEntry, delayEntry));
+        category.addEntry(previewEntry("试听 high", highEntry, "high", volumeEntry));
 
         SelectionListEntry<VoicePack> gaspingEntry = packSelector(
                 entries,
@@ -63,7 +60,7 @@ public final class StageVoiceModMenu implements ModMenuApi {
                 VoicePack.DEFAULT,
                 config::setGaspingPack);
         category.addEntry(gaspingEntry);
-        category.addEntry(previewEntry("试听 gasping", gaspingEntry, "gasping", volumeEntry, delayEntry));
+        category.addEntry(previewEntry("试听 gasping", gaspingEntry, "gasping", volumeEntry));
 
         SelectionListEntry<VoicePack> climaxEntry = packSelector(
                 entries,
@@ -72,7 +69,7 @@ public final class StageVoiceModMenu implements ModMenuApi {
                 VoicePack.DEFAULT,
                 config::setClimaxPack);
         category.addEntry(climaxEntry);
-        category.addEntry(previewEntry("试听 climax", climaxEntry, "climax", volumeEntry, delayEntry));
+        category.addEntry(previewEntry("试听 climax", climaxEntry, "climax", volumeEntry));
 
         SelectionListEntry<VoicePack> hurtEntry = packSelector(
                 entries,
@@ -81,8 +78,7 @@ public final class StageVoiceModMenu implements ModMenuApi {
                 VoicePack.KATAGIRI_AKI,
                 config::setFemaleHurtPack);
         category.addEntry(hurtEntry);
-        category.addEntry(previewEntry(
-                "试听女性受伤音效", hurtEntry, "high", volumeEntry, delayEntry));
+        category.addEntry(previewEntry("试听女性受伤音效", hurtEntry, "high", volumeEntry));
 
         builder.setSavingRunnable(() -> {
             config.save();
@@ -108,15 +104,13 @@ public final class StageVoiceModMenu implements ModMenuApi {
             String label,
             SelectionListEntry<VoicePack> packEntry,
             String band,
-            IntegerSliderEntry volumeEntry,
-            LongListEntry delayEntry) {
+            IntegerSliderEntry volumeEntry) {
         return new PreviewButtonEntry(
                 Text.literal(label),
                 () -> StageVoiceClient.preview(
-                        packEntry::getValue,
+                        packEntry.getValue(),
                         band,
-                        () -> volumeEntry.getValue() / 100.0,
-                        delayEntry::getValue,
+                        volumeEntry.getValue() / 100.0f,
                         packEntry.getConfigScreen()),
                 StageVoiceClient::stopPreview,
                 StageVoiceClient::canPreview);
