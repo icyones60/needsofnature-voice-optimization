@@ -13,6 +13,36 @@ This repository contains the Java source code and build configuration. Bundled a
 - Replaces the `wildfire_gender:female_hurt` sound.
 - Runs on the client only.
 
+## Supported Environment
+
+- Minecraft: `1.21.11`
+- Mod loader: Fabric Loader `0.18.5` or later
+- Java: `21` or later
+- Runtime side: client only
+- Forge and NeoForge are not supported.
+- No other Minecraft versions are currently confirmed to be supported.
+
+## Required Dependencies
+
+- Fabric API for Minecraft `1.21.11`
+- NeedsOfNature `1.4.4` or later
+- Mod Menu `17.0.0` or later
+- Cloth Config `21.11.153` or later
+
+This mod was developed using NeedsOfNature `1.5.1+1.21.11` as its reference environment. Although the mod metadata allows version `1.4.4` or later, not every version has been compatibility-tested.
+
+## Optional Integration
+
+Female Gender Mod is not a required dependency. When installed, this mod replaces its `wildfire_gender:female_hurt` sound. Without Female Gender Mod, the NeedsOfNature animation stage voices and configuration features remain available.
+
+## Conflicts and Compatibility Risks
+
+There are currently no confirmed mod conflicts, but compatibility issues may occur in the following cases:
+
+- Installing multiple versions of this mod at the same time may cause duplicate mod ID or sound resource conflicts.
+- Mods that modify NeedsOfNature's internal animation runtime may prevent stage voices from triggering correctly.
+- Mods that also intercept player `playSound` calls or replace `wildfire_gender:female_hurt` may produce results that depend on Mixin loading order.
+
 ## Trigger Rules
 
 - The final animation stage uses `climax` and starts playing immediately.
