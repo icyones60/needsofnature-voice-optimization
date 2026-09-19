@@ -52,7 +52,7 @@ There are currently no confirmed mod conflicts, but compatibility issues may occ
 
 ## Installation
 
-1. Download `needsofnature-voice-optimization-1.2.1.jar` from [Releases](../../releases).
+1. Download `needsofnature-voice-optimization-1.2.2.jar` from [Releases](../../releases).
 2. Place the JAR in the `mods` directory of your Minecraft instance.
 3. Start the game and open the configuration screen through Mod Menu, or bind `Open Voice Settings` under `NeedsOfNature Voice Optimization Options` in the controls screen.
 
@@ -60,10 +60,10 @@ Do not install multiple versions of this mod at the same time.
 
 ## File Verification
 
-SHA-256 for the `v1.2.1` JAR:
+SHA-256 for the `v1.2.2` JAR:
 
 ```text
-01E0213EDF6EFC94D60BCCB1EAE7A863BA1AE84B1A4941E37B2BC60524432D0E
+846C6CD7A6103532065AF7456C7BB6504EB3A9A28F38F6C792719C01951C2571
 ```
 
 ## License

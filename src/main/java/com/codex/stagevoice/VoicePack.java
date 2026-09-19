@@ -13,8 +13,7 @@ enum VoicePack {
     OTOSAKA_KINO("08otosaka-kino", "08otosaka-kino", 39, 20, 6),
     ASAHINA_YUNO("09asahina-yuno", "09asahina-yuno", 39, 15, 6),
     NEKONO_SHIRONE("10nekono-shirone", "10nekono-shirone", 39, 21, 7),
-    TADAI_MARISA("11tadai-marisa", "11tadai-marisa", 45, 10, 6),
-    MEMENO_HINA_SOUNDS("memeno-hina-sounds", "memeno-hina-sounds", 6, 1, 2);
+    TADAI_MARISA("11tadai-marisa", "11tadai-marisa", 45, 10, 6);
 
     static final VoicePack DEFAULT = RYUZEN_NIKOMI_SILENT;
     static final VoicePack[] VALUES = values();
