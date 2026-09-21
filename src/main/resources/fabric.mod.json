@@ -3,7 +3,12 @@
   "id": "stagevoice",
   "version": "${version}",
   "name": "NeedsOfNature Voice Optimization",
-  "description": "该模组为NoN配置了动画阶段的音频，主要包含三个阶段：high→climax→gasping，以及受伤音频的覆盖。自带的音频包，可在设置中自行配置。",
+  "description": "该模组为NON不同动画阶段配置了音频，可在设置中选择音频包和播放频率。",
+  "contact": {
+    "homepage": "https://github.com/icyones60/needsofnature-voice-optimization",
+    "issues": "https://github.com/icyones60/needsofnature-voice-optimization/issues",
+    "sources": "https://github.com/icyones60/needsofnature-voice-optimization"
+  },
   "icon": "icon.png",
   "authors": ["Ibukicha"],
   "license": "All-Rights-Reserved",

@@ -46,11 +46,13 @@ public final class StageVoiceModMenu implements ModMenuApi {
 
         SelectionListEntry<VoicePack> highEntry = packSelector(
                 entries,
-                "high 音频包",
+                "process 音频包",
                 config.highPack(),
                 VoicePack.DEFAULT,
                 config::setHighPack);
         category.addEntry(highEntry);
+        category.addEntry(previewEntry("试听 low", highEntry, "low", volumeEntry));
+        category.addEntry(previewEntry("试听 med", highEntry, "med", volumeEntry));
         category.addEntry(previewEntry("试听 high", highEntry, "high", volumeEntry));
 
         SelectionListEntry<VoicePack> gaspingEntry = packSelector(

@@ -1,47 +1,57 @@
 {
+  "voice/packs/01kotone-akari/climax/climax_1": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/climax/climax_1"
+    ]
+  },
+  "voice/packs/01kotone-akari/climax/climax_2": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/climax/climax_2"
+    ]
+  },
+  "voice/packs/01kotone-akari/climax/climax_3": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/climax/climax_3"
+    ]
+  },
+  "voice/packs/01kotone-akari/climax/climax_4": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/climax/climax_4"
+    ]
+  },
+  "voice/packs/01kotone-akari/gasping/gasping_1": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/gasping/gasping_1"
+    ]
+  },
+  "voice/packs/01kotone-akari/gasping/gasping_2": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/gasping/gasping_2"
+    ]
+  },
+  "voice/packs/01kotone-akari/gasping/gasping_3": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/gasping/gasping_3"
+    ]
+  },
+  "voice/packs/01kotone-akari/gasping/gasping_4": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/gasping/gasping_4"
+    ]
+  },
+  "voice/packs/01kotone-akari/gasping/gasping_5": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/gasping/gasping_5"
+    ]
+  },
+  "voice/packs/01kotone-akari/gasping/gasping_6": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/gasping/gasping_6"
+    ]
+  },
   "voice/packs/01kotone-akari/high/high_1": {
     "sounds": [
       "stagevoice:voice/packs/01kotone-akari/high/high_1"
-    ]
-  },
-  "voice/packs/01kotone-akari/high/high_2": {
-    "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/high/high_2"
-    ]
-  },
-  "voice/packs/01kotone-akari/high/high_3": {
-    "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/high/high_3"
-    ]
-  },
-  "voice/packs/01kotone-akari/high/high_4": {
-    "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/high/high_4"
-    ]
-  },
-  "voice/packs/01kotone-akari/high/high_5": {
-    "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/high/high_5"
-    ]
-  },
-  "voice/packs/01kotone-akari/high/high_6": {
-    "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/high/high_6"
-    ]
-  },
-  "voice/packs/01kotone-akari/high/high_7": {
-    "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/high/high_7"
-    ]
-  },
-  "voice/packs/01kotone-akari/high/high_8": {
-    "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/high/high_8"
-    ]
-  },
-  "voice/packs/01kotone-akari/high/high_9": {
-    "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/high/high_9"
     ]
   },
   "voice/packs/01kotone-akari/high/high_10": {
@@ -94,104 +104,444 @@
       "stagevoice:voice/packs/01kotone-akari/high/high_19"
     ]
   },
+  "voice/packs/01kotone-akari/high/high_2": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/high/high_2"
+    ]
+  },
   "voice/packs/01kotone-akari/high/high_20": {
     "sounds": [
       "stagevoice:voice/packs/01kotone-akari/high/high_20"
     ]
   },
-  "voice/packs/01kotone-akari/gasping/gasping_1": {
+  "voice/packs/01kotone-akari/high/high_3": {
     "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/gasping/gasping_1"
+      "stagevoice:voice/packs/01kotone-akari/high/high_3"
     ]
   },
-  "voice/packs/01kotone-akari/gasping/gasping_2": {
+  "voice/packs/01kotone-akari/high/high_4": {
     "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/gasping/gasping_2"
+      "stagevoice:voice/packs/01kotone-akari/high/high_4"
     ]
   },
-  "voice/packs/01kotone-akari/gasping/gasping_3": {
+  "voice/packs/01kotone-akari/high/high_5": {
     "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/gasping/gasping_3"
+      "stagevoice:voice/packs/01kotone-akari/high/high_5"
     ]
   },
-  "voice/packs/01kotone-akari/gasping/gasping_4": {
+  "voice/packs/01kotone-akari/high/high_6": {
     "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/gasping/gasping_4"
+      "stagevoice:voice/packs/01kotone-akari/high/high_6"
     ]
   },
-  "voice/packs/01kotone-akari/gasping/gasping_5": {
+  "voice/packs/01kotone-akari/high/high_7": {
     "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/gasping/gasping_5"
+      "stagevoice:voice/packs/01kotone-akari/high/high_7"
     ]
   },
-  "voice/packs/01kotone-akari/gasping/gasping_6": {
+  "voice/packs/01kotone-akari/high/high_8": {
     "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/gasping/gasping_6"
+      "stagevoice:voice/packs/01kotone-akari/high/high_8"
     ]
   },
-  "voice/packs/01kotone-akari/climax/climax_1": {
+  "voice/packs/01kotone-akari/high/high_9": {
     "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/climax/climax_1"
+      "stagevoice:voice/packs/01kotone-akari/high/high_9"
     ]
   },
-  "voice/packs/01kotone-akari/climax/climax_2": {
+  "voice/packs/01kotone-akari/low/low_1": {
     "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/climax/climax_2"
+      "stagevoice:voice/packs/01kotone-akari/low/low_1"
     ]
   },
-  "voice/packs/01kotone-akari/climax/climax_3": {
+  "voice/packs/01kotone-akari/low/low_10": {
     "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/climax/climax_3"
+      "stagevoice:voice/packs/01kotone-akari/low/low_10"
     ]
   },
-  "voice/packs/01kotone-akari/climax/climax_4": {
+  "voice/packs/01kotone-akari/low/low_11": {
     "sounds": [
-      "stagevoice:voice/packs/01kotone-akari/climax/climax_4"
+      "stagevoice:voice/packs/01kotone-akari/low/low_11"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_12": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_12"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_13": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_13"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_14": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_14"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_15": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_15"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_16": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_16"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_17": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_17"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_18": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_18"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_19": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_19"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_2": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_2"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_20": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_20"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_21": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_21"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_22": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_22"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_23": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_23"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_24": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_24"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_25": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_25"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_26": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_26"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_27": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_27"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_28": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_28"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_29": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_29"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_3": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_3"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_30": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_30"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_31": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_31"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_32": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_32"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_33": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_33"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_34": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_34"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_35": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_35"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_36": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_36"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_37": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_37"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_38": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_38"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_39": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_39"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_4": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_4"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_5": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_5"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_6": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_6"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_7": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_7"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_8": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_8"
+    ]
+  },
+  "voice/packs/01kotone-akari/low/low_9": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/low/low_9"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_1": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_1"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_10": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_10"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_11": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_11"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_12": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_12"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_13": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_13"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_14": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_14"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_15": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_15"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_16": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_16"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_17": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_17"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_18": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_18"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_19": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_19"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_2": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_2"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_20": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_20"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_21": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_21"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_22": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_22"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_3": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_3"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_4": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_4"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_5": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_5"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_6": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_6"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_7": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_7"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_8": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_8"
+    ]
+  },
+  "voice/packs/01kotone-akari/med/med_9": {
+    "sounds": [
+      "stagevoice:voice/packs/01kotone-akari/med/med_9"
+    ]
+  },
+  "voice/packs/03memeno-hina/climax/climax_2": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/climax/climax_2"
+    ]
+  },
+  "voice/packs/03memeno-hina/climax/climax_3": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/climax/climax_3"
+    ]
+  },
+  "voice/packs/03memeno-hina/climax/climax_4": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/climax/climax_4"
+    ]
+  },
+  "voice/packs/03memeno-hina/climax/climax_5": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/climax/climax_5"
+    ]
+  },
+  "voice/packs/03memeno-hina/climax/climax_6": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/climax/climax_6"
+    ]
+  },
+  "voice/packs/03memeno-hina/climax/climax_7": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/climax/climax_7"
+    ]
+  },
+  "voice/packs/03memeno-hina/gasping/gasping_1": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_1"
+    ]
+  },
+  "voice/packs/03memeno-hina/gasping/gasping_10": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_10"
+    ]
+  },
+  "voice/packs/03memeno-hina/gasping/gasping_11": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_11"
+    ]
+  },
+  "voice/packs/03memeno-hina/gasping/gasping_2": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_2"
+    ]
+  },
+  "voice/packs/03memeno-hina/gasping/gasping_3": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_3"
+    ]
+  },
+  "voice/packs/03memeno-hina/gasping/gasping_4": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_4"
+    ]
+  },
+  "voice/packs/03memeno-hina/gasping/gasping_5": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_5"
+    ]
+  },
+  "voice/packs/03memeno-hina/gasping/gasping_6": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_6"
+    ]
+  },
+  "voice/packs/03memeno-hina/gasping/gasping_7": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_7"
+    ]
+  },
+  "voice/packs/03memeno-hina/gasping/gasping_8": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_8"
+    ]
+  },
+  "voice/packs/03memeno-hina/gasping/gasping_9": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_9"
     ]
   },
   "voice/packs/03memeno-hina/high/high_1": {
     "sounds": [
       "stagevoice:voice/packs/03memeno-hina/high/high_1"
-    ]
-  },
-  "voice/packs/03memeno-hina/high/high_2": {
-    "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/high/high_2"
-    ]
-  },
-  "voice/packs/03memeno-hina/high/high_3": {
-    "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/high/high_3"
-    ]
-  },
-  "voice/packs/03memeno-hina/high/high_4": {
-    "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/high/high_4"
-    ]
-  },
-  "voice/packs/03memeno-hina/high/high_5": {
-    "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/high/high_5"
-    ]
-  },
-  "voice/packs/03memeno-hina/high/high_6": {
-    "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/high/high_6"
-    ]
-  },
-  "voice/packs/03memeno-hina/high/high_7": {
-    "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/high/high_7"
-    ]
-  },
-  "voice/packs/03memeno-hina/high/high_8": {
-    "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/high/high_8"
-    ]
-  },
-  "voice/packs/03memeno-hina/high/high_9": {
-    "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/high/high_9"
     ]
   },
   "voice/packs/03memeno-hina/high/high_10": {
@@ -244,6 +594,11 @@
       "stagevoice:voice/packs/03memeno-hina/high/high_19"
     ]
   },
+  "voice/packs/03memeno-hina/high/high_2": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/high/high_2"
+    ]
+  },
   "voice/packs/03memeno-hina/high/high_20": {
     "sounds": [
       "stagevoice:voice/packs/03memeno-hina/high/high_20"
@@ -292,6 +647,11 @@
   "voice/packs/03memeno-hina/high/high_29": {
     "sounds": [
       "stagevoice:voice/packs/03memeno-hina/high/high_29"
+    ]
+  },
+  "voice/packs/03memeno-hina/high/high_3": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/high/high_3"
     ]
   },
   "voice/packs/03memeno-hina/high/high_30": {
@@ -344,6 +704,11 @@
       "stagevoice:voice/packs/03memeno-hina/high/high_39"
     ]
   },
+  "voice/packs/03memeno-hina/high/high_4": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/high/high_4"
+    ]
+  },
   "voice/packs/03memeno-hina/high/high_40": {
     "sounds": [
       "stagevoice:voice/packs/03memeno-hina/high/high_40"
@@ -374,139 +739,369 @@
       "stagevoice:voice/packs/03memeno-hina/high/high_45"
     ]
   },
-  "voice/packs/03memeno-hina/gasping/gasping_1": {
+  "voice/packs/03memeno-hina/high/high_5": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_1"
+      "stagevoice:voice/packs/03memeno-hina/high/high_5"
     ]
   },
-  "voice/packs/03memeno-hina/gasping/gasping_2": {
+  "voice/packs/03memeno-hina/high/high_6": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_2"
+      "stagevoice:voice/packs/03memeno-hina/high/high_6"
     ]
   },
-  "voice/packs/03memeno-hina/gasping/gasping_3": {
+  "voice/packs/03memeno-hina/high/high_7": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_3"
+      "stagevoice:voice/packs/03memeno-hina/high/high_7"
     ]
   },
-  "voice/packs/03memeno-hina/gasping/gasping_4": {
+  "voice/packs/03memeno-hina/high/high_8": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_4"
+      "stagevoice:voice/packs/03memeno-hina/high/high_8"
     ]
   },
-  "voice/packs/03memeno-hina/gasping/gasping_5": {
+  "voice/packs/03memeno-hina/high/high_9": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_5"
+      "stagevoice:voice/packs/03memeno-hina/high/high_9"
     ]
   },
-  "voice/packs/03memeno-hina/gasping/gasping_6": {
+  "voice/packs/03memeno-hina/low/low_1": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_6"
+      "stagevoice:voice/packs/03memeno-hina/low/low_1"
     ]
   },
-  "voice/packs/03memeno-hina/gasping/gasping_7": {
+  "voice/packs/03memeno-hina/low/low_10": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_7"
+      "stagevoice:voice/packs/03memeno-hina/low/low_10"
     ]
   },
-  "voice/packs/03memeno-hina/gasping/gasping_8": {
+  "voice/packs/03memeno-hina/low/low_11": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_8"
+      "stagevoice:voice/packs/03memeno-hina/low/low_11"
     ]
   },
-  "voice/packs/03memeno-hina/gasping/gasping_9": {
+  "voice/packs/03memeno-hina/low/low_12": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_9"
+      "stagevoice:voice/packs/03memeno-hina/low/low_12"
     ]
   },
-  "voice/packs/03memeno-hina/gasping/gasping_10": {
+  "voice/packs/03memeno-hina/low/low_13": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_10"
+      "stagevoice:voice/packs/03memeno-hina/low/low_13"
     ]
   },
-  "voice/packs/03memeno-hina/gasping/gasping_11": {
+  "voice/packs/03memeno-hina/low/low_14": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/gasping/gasping_11"
+      "stagevoice:voice/packs/03memeno-hina/low/low_14"
     ]
   },
-  "voice/packs/03memeno-hina/climax/climax_1": {
+  "voice/packs/03memeno-hina/low/low_15": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/climax/climax_1"
+      "stagevoice:voice/packs/03memeno-hina/low/low_15"
     ]
   },
-  "voice/packs/03memeno-hina/climax/climax_2": {
+  "voice/packs/03memeno-hina/low/low_16": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/climax/climax_2"
+      "stagevoice:voice/packs/03memeno-hina/low/low_16"
     ]
   },
-  "voice/packs/03memeno-hina/climax/climax_3": {
+  "voice/packs/03memeno-hina/low/low_17": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/climax/climax_3"
+      "stagevoice:voice/packs/03memeno-hina/low/low_17"
     ]
   },
-  "voice/packs/03memeno-hina/climax/climax_4": {
+  "voice/packs/03memeno-hina/low/low_18": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/climax/climax_4"
+      "stagevoice:voice/packs/03memeno-hina/low/low_18"
     ]
   },
-  "voice/packs/03memeno-hina/climax/climax_5": {
+  "voice/packs/03memeno-hina/low/low_19": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/climax/climax_5"
+      "stagevoice:voice/packs/03memeno-hina/low/low_19"
     ]
   },
-  "voice/packs/03memeno-hina/climax/climax_6": {
+  "voice/packs/03memeno-hina/low/low_2": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/climax/climax_6"
+      "stagevoice:voice/packs/03memeno-hina/low/low_2"
     ]
   },
-  "voice/packs/03memeno-hina/climax/climax_7": {
+  "voice/packs/03memeno-hina/low/low_20": {
     "sounds": [
-      "stagevoice:voice/packs/03memeno-hina/climax/climax_7"
+      "stagevoice:voice/packs/03memeno-hina/low/low_20"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_21": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_21"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_22": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_22"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_23": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_23"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_24": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_24"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_25": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_25"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_26": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_26"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_27": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_27"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_28": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_28"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_29": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_29"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_3": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_3"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_30": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_30"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_31": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_31"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_4": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_4"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_5": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_5"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_6": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_6"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_7": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_7"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_8": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_8"
+    ]
+  },
+  "voice/packs/03memeno-hina/low/low_9": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/low/low_9"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_1": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_1"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_10": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_10"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_11": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_11"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_12": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_12"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_13": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_13"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_14": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_14"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_15": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_15"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_16": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_16"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_17": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_17"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_18": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_18"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_19": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_19"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_2": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_2"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_20": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_20"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_21": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_21"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_22": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_22"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_23": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_23"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_24": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_24"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_25": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_25"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_26": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_26"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_3": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_3"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_4": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_4"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_5": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_5"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_6": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_6"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_7": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_7"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_8": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_8"
+    ]
+  },
+  "voice/packs/03memeno-hina/med/med_9": {
+    "sounds": [
+      "stagevoice:voice/packs/03memeno-hina/med/med_9"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/climax/climax_1": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/climax/climax_1"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/climax/climax_2": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/climax/climax_2"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/climax/climax_3": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/climax/climax_3"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/climax/climax_4": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/climax/climax_4"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/gasping/gasping_1": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/gasping/gasping_1"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/gasping/gasping_2": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/gasping/gasping_2"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/gasping/gasping_3": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/gasping/gasping_3"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/gasping/gasping_4": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/gasping/gasping_4"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/gasping/gasping_5": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/gasping/gasping_5"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/gasping/gasping_6": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/gasping/gasping_6"
     ]
   },
   "voice/packs/04mikami-satsuki/high/high_1": {
     "sounds": [
       "stagevoice:voice/packs/04mikami-satsuki/high/high_1"
-    ]
-  },
-  "voice/packs/04mikami-satsuki/high/high_2": {
-    "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/high/high_2"
-    ]
-  },
-  "voice/packs/04mikami-satsuki/high/high_3": {
-    "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/high/high_3"
-    ]
-  },
-  "voice/packs/04mikami-satsuki/high/high_4": {
-    "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/high/high_4"
-    ]
-  },
-  "voice/packs/04mikami-satsuki/high/high_5": {
-    "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/high/high_5"
-    ]
-  },
-  "voice/packs/04mikami-satsuki/high/high_6": {
-    "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/high/high_6"
-    ]
-  },
-  "voice/packs/04mikami-satsuki/high/high_7": {
-    "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/high/high_7"
-    ]
-  },
-  "voice/packs/04mikami-satsuki/high/high_8": {
-    "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/high/high_8"
-    ]
-  },
-  "voice/packs/04mikami-satsuki/high/high_9": {
-    "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/high/high_9"
     ]
   },
   "voice/packs/04mikami-satsuki/high/high_10": {
@@ -559,6 +1154,11 @@
       "stagevoice:voice/packs/04mikami-satsuki/high/high_19"
     ]
   },
+  "voice/packs/04mikami-satsuki/high/high_2": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/high/high_2"
+    ]
+  },
   "voice/packs/04mikami-satsuki/high/high_20": {
     "sounds": [
       "stagevoice:voice/packs/04mikami-satsuki/high/high_20"
@@ -607,6 +1207,11 @@
   "voice/packs/04mikami-satsuki/high/high_29": {
     "sounds": [
       "stagevoice:voice/packs/04mikami-satsuki/high/high_29"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/high/high_3": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/high/high_3"
     ]
   },
   "voice/packs/04mikami-satsuki/high/high_30": {
@@ -659,99 +1264,399 @@
       "stagevoice:voice/packs/04mikami-satsuki/high/high_39"
     ]
   },
-  "voice/packs/04mikami-satsuki/gasping/gasping_1": {
+  "voice/packs/04mikami-satsuki/high/high_4": {
     "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/gasping/gasping_1"
+      "stagevoice:voice/packs/04mikami-satsuki/high/high_4"
     ]
   },
-  "voice/packs/04mikami-satsuki/gasping/gasping_2": {
+  "voice/packs/04mikami-satsuki/high/high_5": {
     "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/gasping/gasping_2"
+      "stagevoice:voice/packs/04mikami-satsuki/high/high_5"
     ]
   },
-  "voice/packs/04mikami-satsuki/gasping/gasping_3": {
+  "voice/packs/04mikami-satsuki/high/high_6": {
     "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/gasping/gasping_3"
+      "stagevoice:voice/packs/04mikami-satsuki/high/high_6"
     ]
   },
-  "voice/packs/04mikami-satsuki/gasping/gasping_4": {
+  "voice/packs/04mikami-satsuki/high/high_7": {
     "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/gasping/gasping_4"
+      "stagevoice:voice/packs/04mikami-satsuki/high/high_7"
     ]
   },
-  "voice/packs/04mikami-satsuki/gasping/gasping_5": {
+  "voice/packs/04mikami-satsuki/high/high_8": {
     "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/gasping/gasping_5"
+      "stagevoice:voice/packs/04mikami-satsuki/high/high_8"
     ]
   },
-  "voice/packs/04mikami-satsuki/gasping/gasping_6": {
+  "voice/packs/04mikami-satsuki/high/high_9": {
     "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/gasping/gasping_6"
+      "stagevoice:voice/packs/04mikami-satsuki/high/high_9"
     ]
   },
-  "voice/packs/04mikami-satsuki/climax/climax_1": {
+  "voice/packs/04mikami-satsuki/low/low_1": {
     "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/climax/climax_1"
+      "stagevoice:voice/packs/04mikami-satsuki/low/low_1"
     ]
   },
-  "voice/packs/04mikami-satsuki/climax/climax_2": {
+  "voice/packs/04mikami-satsuki/low/low_10": {
     "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/climax/climax_2"
+      "stagevoice:voice/packs/04mikami-satsuki/low/low_10"
     ]
   },
-  "voice/packs/04mikami-satsuki/climax/climax_3": {
+  "voice/packs/04mikami-satsuki/low/low_11": {
     "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/climax/climax_3"
+      "stagevoice:voice/packs/04mikami-satsuki/low/low_11"
     ]
   },
-  "voice/packs/04mikami-satsuki/climax/climax_4": {
+  "voice/packs/04mikami-satsuki/low/low_12": {
     "sounds": [
-      "stagevoice:voice/packs/04mikami-satsuki/climax/climax_4"
+      "stagevoice:voice/packs/04mikami-satsuki/low/low_12"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/low/low_13": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/low/low_13"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/low/low_14": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/low/low_14"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/low/low_15": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/low/low_15"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/low/low_2": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/low/low_2"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/low/low_3": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/low/low_3"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/low/low_4": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/low/low_4"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/low/low_5": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/low/low_5"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/low/low_6": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/low/low_6"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/low/low_7": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/low/low_7"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/low/low_8": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/low/low_8"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/low/low_9": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/low/low_9"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_1": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_1"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_10": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_10"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_11": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_11"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_12": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_12"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_13": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_13"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_14": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_14"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_15": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_15"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_16": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_16"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_17": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_17"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_18": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_18"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_19": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_19"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_2": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_2"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_20": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_20"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_21": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_21"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_22": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_22"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_23": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_23"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_24": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_24"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_25": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_25"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_26": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_26"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_27": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_27"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_28": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_28"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_29": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_29"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_3": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_3"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_30": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_30"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_31": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_31"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_32": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_32"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_33": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_33"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_34": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_34"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_35": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_35"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_4": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_4"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_5": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_5"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_6": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_6"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_7": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_7"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_8": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_8"
+    ]
+  },
+  "voice/packs/04mikami-satsuki/med/med_9": {
+    "sounds": [
+      "stagevoice:voice/packs/04mikami-satsuki/med/med_9"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/climax/climax_1": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/climax/climax_1"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/climax/climax_2": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/climax/climax_2"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/climax/climax_3": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/climax/climax_3"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/climax/climax_4": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/climax/climax_4"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/climax/climax_5": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/climax/climax_5"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/climax/climax_6": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/climax/climax_6"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/climax/climax_7": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/climax/climax_7"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_1": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_1"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_10": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_10"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_11": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_11"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_12": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_12"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_13": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_13"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_14": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_14"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_15": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_15"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_2": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_2"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_3": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_3"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_4": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_4"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_5": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_5"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_6": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_6"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_7": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_7"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_8": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_8"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_9": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_9"
     ]
   },
   "voice/packs/05ryuzen-nikomi-break/high/high_1": {
     "sounds": [
       "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_1"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-break/high/high_2": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_2"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-break/high/high_3": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_3"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-break/high/high_4": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_4"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-break/high/high_5": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_5"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-break/high/high_6": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_6"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-break/high/high_7": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_7"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-break/high/high_8": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_8"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-break/high/high_9": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_9"
     ]
   },
   "voice/packs/05ryuzen-nikomi-break/high/high_10": {
@@ -804,6 +1709,11 @@
       "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_19"
     ]
   },
+  "voice/packs/05ryuzen-nikomi-break/high/high_2": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_2"
+    ]
+  },
   "voice/packs/05ryuzen-nikomi-break/high/high_20": {
     "sounds": [
       "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_20"
@@ -852,6 +1762,11 @@
   "voice/packs/05ryuzen-nikomi-break/high/high_29": {
     "sounds": [
       "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_29"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/high/high_3": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_3"
     ]
   },
   "voice/packs/05ryuzen-nikomi-break/high/high_30": {
@@ -904,6 +1819,11 @@
       "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_39"
     ]
   },
+  "voice/packs/05ryuzen-nikomi-break/high/high_4": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_4"
+    ]
+  },
   "voice/packs/05ryuzen-nikomi-break/high/high_40": {
     "sounds": [
       "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_40"
@@ -924,159 +1844,519 @@
       "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_43"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_1": {
+  "voice/packs/05ryuzen-nikomi-break/high/high_5": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_1"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_5"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_2": {
+  "voice/packs/05ryuzen-nikomi-break/high/high_6": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_2"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_6"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_3": {
+  "voice/packs/05ryuzen-nikomi-break/high/high_7": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_3"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_7"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_4": {
+  "voice/packs/05ryuzen-nikomi-break/high/high_8": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_4"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_8"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_5": {
+  "voice/packs/05ryuzen-nikomi-break/high/high_9": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_5"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/high/high_9"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_6": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_1": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_6"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_1"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_7": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_10": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_7"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_10"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_8": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_11": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_8"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_11"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_9": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_12": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_9"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_12"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_10": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_13": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_10"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_13"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_11": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_14": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_11"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_14"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_12": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_15": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_12"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_15"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_13": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_16": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_13"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_16"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_14": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_17": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_14"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_17"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/gasping/gasping_15": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_18": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/gasping/gasping_15"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_18"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/climax/climax_1": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_19": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/climax/climax_1"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_19"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/climax/climax_2": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_2": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/climax/climax_2"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_2"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/climax/climax_3": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_20": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/climax/climax_3"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_20"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/climax/climax_4": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_21": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/climax/climax_4"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_21"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/climax/climax_5": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_22": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/climax/climax_5"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_22"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/climax/climax_6": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_23": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/climax/climax_6"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_23"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-break/climax/climax_7": {
+  "voice/packs/05ryuzen-nikomi-break/low/low_24": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-break/climax/climax_7"
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_24"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_25": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_25"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_26": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_26"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_27": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_27"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_28": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_28"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_29": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_29"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_3": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_3"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_30": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_30"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_31": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_31"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_32": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_32"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_33": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_33"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_34": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_34"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_35": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_35"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_36": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_36"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_37": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_37"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_38": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_38"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_39": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_39"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_4": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_4"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_40": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_40"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_41": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_41"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_5": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_5"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_6": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_6"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_7": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_7"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_8": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_8"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/low/low_9": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/low/low_9"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_1": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_1"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_10": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_10"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_11": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_11"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_12": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_12"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_13": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_13"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_14": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_14"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_15": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_15"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_16": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_16"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_17": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_17"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_18": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_18"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_19": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_19"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_2": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_2"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_20": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_20"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_21": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_21"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_22": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_22"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_23": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_23"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_24": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_24"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_25": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_25"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_26": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_26"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_27": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_27"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_28": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_28"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_29": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_29"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_3": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_3"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_30": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_30"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_31": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_31"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_32": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_32"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_33": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_33"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_34": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_34"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_35": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_35"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_4": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_4"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_5": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_5"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_6": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_6"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_7": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_7"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_8": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_8"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-break/med/med_9": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-break/med/med_9"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/climax/climax_1": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/climax/climax_1"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/climax/climax_2": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/climax/climax_2"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/climax/climax_3": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/climax/climax_3"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/climax/climax_4": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/climax/climax_4"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/climax/climax_5": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/climax/climax_5"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/climax/climax_6": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/climax/climax_6"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_1": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_1"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_10": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_10"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_11": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_11"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_12": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_12"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_13": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_13"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_14": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_14"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_15": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_15"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_2": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_2"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_3": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_3"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_4": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_4"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_5": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_5"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_6": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_6"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_7": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_7"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_8": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_8"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_9": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_9"
     ]
   },
   "voice/packs/05ryuzen-nikomi-silent/high/high_1": {
     "sounds": [
       "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_1"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-silent/high/high_2": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_2"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-silent/high/high_3": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_3"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-silent/high/high_4": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_4"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-silent/high/high_5": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_5"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-silent/high/high_6": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_6"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-silent/high/high_7": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_7"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-silent/high/high_8": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_8"
-    ]
-  },
-  "voice/packs/05ryuzen-nikomi-silent/high/high_9": {
-    "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_9"
     ]
   },
   "voice/packs/05ryuzen-nikomi-silent/high/high_10": {
@@ -1129,6 +2409,11 @@
       "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_19"
     ]
   },
+  "voice/packs/05ryuzen-nikomi-silent/high/high_2": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_2"
+    ]
+  },
   "voice/packs/05ryuzen-nikomi-silent/high/high_20": {
     "sounds": [
       "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_20"
@@ -1177,6 +2462,11 @@
   "voice/packs/05ryuzen-nikomi-silent/high/high_29": {
     "sounds": [
       "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_29"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/high/high_3": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_3"
     ]
   },
   "voice/packs/05ryuzen-nikomi-silent/high/high_30": {
@@ -1229,154 +2519,494 @@
       "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_39"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_1": {
+  "voice/packs/05ryuzen-nikomi-silent/high/high_4": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_1"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_4"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_2": {
+  "voice/packs/05ryuzen-nikomi-silent/high/high_5": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_2"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_5"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_3": {
+  "voice/packs/05ryuzen-nikomi-silent/high/high_6": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_3"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_6"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_4": {
+  "voice/packs/05ryuzen-nikomi-silent/high/high_7": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_4"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_7"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_5": {
+  "voice/packs/05ryuzen-nikomi-silent/high/high_8": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_5"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_8"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_6": {
+  "voice/packs/05ryuzen-nikomi-silent/high/high_9": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_6"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/high/high_9"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_7": {
+  "voice/packs/05ryuzen-nikomi-silent/low/low_1": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_7"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_1"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_8": {
+  "voice/packs/05ryuzen-nikomi-silent/low/low_10": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_8"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_10"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_9": {
+  "voice/packs/05ryuzen-nikomi-silent/low/low_11": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_9"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_11"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_10": {
+  "voice/packs/05ryuzen-nikomi-silent/low/low_12": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_10"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_12"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_11": {
+  "voice/packs/05ryuzen-nikomi-silent/low/low_13": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_11"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_13"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_12": {
+  "voice/packs/05ryuzen-nikomi-silent/low/low_14": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_12"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_14"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_13": {
+  "voice/packs/05ryuzen-nikomi-silent/low/low_15": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_13"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_15"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_14": {
+  "voice/packs/05ryuzen-nikomi-silent/low/low_16": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_14"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_16"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/gasping/gasping_15": {
+  "voice/packs/05ryuzen-nikomi-silent/low/low_17": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/gasping/gasping_15"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_17"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/climax/climax_1": {
+  "voice/packs/05ryuzen-nikomi-silent/low/low_18": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/climax/climax_1"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_18"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/climax/climax_2": {
+  "voice/packs/05ryuzen-nikomi-silent/low/low_19": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/climax/climax_2"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_19"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/climax/climax_3": {
+  "voice/packs/05ryuzen-nikomi-silent/low/low_2": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/climax/climax_3"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_2"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/climax/climax_4": {
+  "voice/packs/05ryuzen-nikomi-silent/low/low_20": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/climax/climax_4"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_20"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/climax/climax_5": {
+  "voice/packs/05ryuzen-nikomi-silent/low/low_21": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/climax/climax_5"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_21"
     ]
   },
-  "voice/packs/05ryuzen-nikomi-silent/climax/climax_6": {
+  "voice/packs/05ryuzen-nikomi-silent/low/low_22": {
     "sounds": [
-      "stagevoice:voice/packs/05ryuzen-nikomi-silent/climax/climax_6"
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_22"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_23": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_23"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_24": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_24"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_25": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_25"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_26": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_26"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_27": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_27"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_28": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_28"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_29": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_29"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_3": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_3"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_30": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_30"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_31": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_31"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_32": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_32"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_33": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_33"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_34": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_34"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_35": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_35"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_4": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_4"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_5": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_5"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_6": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_6"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_7": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_7"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_8": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_8"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/low/low_9": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/low/low_9"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_1": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_1"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_10": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_10"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_11": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_11"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_12": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_12"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_13": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_13"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_14": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_14"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_15": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_15"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_16": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_16"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_17": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_17"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_18": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_18"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_19": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_19"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_2": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_2"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_20": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_20"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_21": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_21"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_22": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_22"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_23": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_23"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_24": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_24"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_25": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_25"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_26": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_26"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_27": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_27"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_28": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_28"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_29": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_29"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_3": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_3"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_30": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_30"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_31": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_31"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_32": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_32"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_33": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_33"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_34": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_34"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_35": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_35"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_36": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_36"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_37": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_37"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_38": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_38"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_39": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_39"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_4": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_4"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_5": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_5"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_6": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_6"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_7": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_7"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_8": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_8"
+    ]
+  },
+  "voice/packs/05ryuzen-nikomi-silent/med/med_9": {
+    "sounds": [
+      "stagevoice:voice/packs/05ryuzen-nikomi-silent/med/med_9"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/climax/climax_1": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_1"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/climax/climax_2": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_2"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/climax/climax_3": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_3"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/climax/climax_4": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_4"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/climax/climax_5": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_5"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/climax/climax_6": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_6"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/climax/climax_7": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_7"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/climax/climax_8": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_8"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/gasping/gasping_1": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_1"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/gasping/gasping_2": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_2"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/gasping/gasping_3": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_3"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/gasping/gasping_4": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_4"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/gasping/gasping_5": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_5"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/gasping/gasping_6": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_6"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/gasping/gasping_7": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_7"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/gasping/gasping_8": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_8"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/gasping/gasping_9": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_9"
     ]
   },
   "voice/packs/06kitakami-tsubasa/high/high_1": {
     "sounds": [
       "stagevoice:voice/packs/06kitakami-tsubasa/high/high_1"
-    ]
-  },
-  "voice/packs/06kitakami-tsubasa/high/high_2": {
-    "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_2"
-    ]
-  },
-  "voice/packs/06kitakami-tsubasa/high/high_3": {
-    "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_3"
-    ]
-  },
-  "voice/packs/06kitakami-tsubasa/high/high_4": {
-    "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_4"
-    ]
-  },
-  "voice/packs/06kitakami-tsubasa/high/high_5": {
-    "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_5"
-    ]
-  },
-  "voice/packs/06kitakami-tsubasa/high/high_6": {
-    "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_6"
-    ]
-  },
-  "voice/packs/06kitakami-tsubasa/high/high_7": {
-    "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_7"
-    ]
-  },
-  "voice/packs/06kitakami-tsubasa/high/high_8": {
-    "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_8"
-    ]
-  },
-  "voice/packs/06kitakami-tsubasa/high/high_9": {
-    "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_9"
     ]
   },
   "voice/packs/06kitakami-tsubasa/high/high_10": {
@@ -1429,6 +3059,11 @@
       "stagevoice:voice/packs/06kitakami-tsubasa/high/high_19"
     ]
   },
+  "voice/packs/06kitakami-tsubasa/high/high_2": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_2"
+    ]
+  },
   "voice/packs/06kitakami-tsubasa/high/high_20": {
     "sounds": [
       "stagevoice:voice/packs/06kitakami-tsubasa/high/high_20"
@@ -1477,6 +3112,11 @@
   "voice/packs/06kitakami-tsubasa/high/high_29": {
     "sounds": [
       "stagevoice:voice/packs/06kitakami-tsubasa/high/high_29"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/high/high_3": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_3"
     ]
   },
   "voice/packs/06kitakami-tsubasa/high/high_30": {
@@ -1529,134 +3169,449 @@
       "stagevoice:voice/packs/06kitakami-tsubasa/high/high_39"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/gasping/gasping_1": {
+  "voice/packs/06kitakami-tsubasa/high/high_4": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_1"
+      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_4"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/gasping/gasping_2": {
+  "voice/packs/06kitakami-tsubasa/high/high_5": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_2"
+      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_5"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/gasping/gasping_3": {
+  "voice/packs/06kitakami-tsubasa/high/high_6": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_3"
+      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_6"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/gasping/gasping_4": {
+  "voice/packs/06kitakami-tsubasa/high/high_7": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_4"
+      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_7"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/gasping/gasping_5": {
+  "voice/packs/06kitakami-tsubasa/high/high_8": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_5"
+      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_8"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/gasping/gasping_6": {
+  "voice/packs/06kitakami-tsubasa/high/high_9": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_6"
+      "stagevoice:voice/packs/06kitakami-tsubasa/high/high_9"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/gasping/gasping_7": {
+  "voice/packs/06kitakami-tsubasa/low/low_1": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_7"
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_1"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/gasping/gasping_8": {
+  "voice/packs/06kitakami-tsubasa/low/low_10": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_8"
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_10"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/gasping/gasping_9": {
+  "voice/packs/06kitakami-tsubasa/low/low_11": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/gasping/gasping_9"
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_11"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/climax/climax_1": {
+  "voice/packs/06kitakami-tsubasa/low/low_12": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_1"
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_12"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/climax/climax_2": {
+  "voice/packs/06kitakami-tsubasa/low/low_13": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_2"
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_13"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/climax/climax_3": {
+  "voice/packs/06kitakami-tsubasa/low/low_14": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_3"
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_14"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/climax/climax_4": {
+  "voice/packs/06kitakami-tsubasa/low/low_15": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_4"
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_15"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/climax/climax_5": {
+  "voice/packs/06kitakami-tsubasa/low/low_16": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_5"
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_16"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/climax/climax_6": {
+  "voice/packs/06kitakami-tsubasa/low/low_17": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_6"
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_17"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/climax/climax_7": {
+  "voice/packs/06kitakami-tsubasa/low/low_18": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_7"
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_18"
     ]
   },
-  "voice/packs/06kitakami-tsubasa/climax/climax_8": {
+  "voice/packs/06kitakami-tsubasa/low/low_19": {
     "sounds": [
-      "stagevoice:voice/packs/06kitakami-tsubasa/climax/climax_8"
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_19"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/low/low_2": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_2"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/low/low_20": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_20"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/low/low_21": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_21"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/low/low_22": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_22"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/low/low_23": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_23"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/low/low_24": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_24"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/low/low_25": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_25"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/low/low_26": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_26"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/low/low_3": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_3"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/low/low_4": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_4"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/low/low_5": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_5"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/low/low_6": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_6"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/low/low_7": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_7"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/low/low_8": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_8"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/low/low_9": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/low/low_9"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_1": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_1"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_10": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_10"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_11": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_11"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_12": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_12"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_13": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_13"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_14": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_14"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_15": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_15"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_16": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_16"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_17": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_17"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_18": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_18"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_19": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_19"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_2": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_2"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_20": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_20"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_21": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_21"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_22": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_22"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_23": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_23"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_24": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_24"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_25": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_25"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_26": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_26"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_27": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_27"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_28": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_28"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_29": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_29"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_3": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_3"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_30": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_30"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_31": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_31"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_32": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_32"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_33": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_33"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_34": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_34"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_35": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_35"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_36": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_36"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_37": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_37"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_38": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_38"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_39": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_39"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_4": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_4"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_5": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_5"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_6": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_6"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_7": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_7"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_8": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_8"
+    ]
+  },
+  "voice/packs/06kitakami-tsubasa/med/med_9": {
+    "sounds": [
+      "stagevoice:voice/packs/06kitakami-tsubasa/med/med_9"
+    ]
+  },
+  "voice/packs/07katagiri-aki/climax/climax_1": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/climax/climax_1"
+    ]
+  },
+  "voice/packs/07katagiri-aki/climax/climax_2": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/climax/climax_2"
+    ]
+  },
+  "voice/packs/07katagiri-aki/climax/climax_3": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/climax/climax_3"
+    ]
+  },
+  "voice/packs/07katagiri-aki/climax/climax_4": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/climax/climax_4"
+    ]
+  },
+  "voice/packs/07katagiri-aki/climax/climax_5": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/climax/climax_5"
+    ]
+  },
+  "voice/packs/07katagiri-aki/climax/climax_6": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/climax/climax_6"
+    ]
+  },
+  "voice/packs/07katagiri-aki/climax/climax_7": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/climax/climax_7"
+    ]
+  },
+  "voice/packs/07katagiri-aki/gasping/gasping_1": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_1"
+    ]
+  },
+  "voice/packs/07katagiri-aki/gasping/gasping_10": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_10"
+    ]
+  },
+  "voice/packs/07katagiri-aki/gasping/gasping_2": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_2"
+    ]
+  },
+  "voice/packs/07katagiri-aki/gasping/gasping_3": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_3"
+    ]
+  },
+  "voice/packs/07katagiri-aki/gasping/gasping_4": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_4"
+    ]
+  },
+  "voice/packs/07katagiri-aki/gasping/gasping_5": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_5"
+    ]
+  },
+  "voice/packs/07katagiri-aki/gasping/gasping_6": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_6"
+    ]
+  },
+  "voice/packs/07katagiri-aki/gasping/gasping_7": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_7"
+    ]
+  },
+  "voice/packs/07katagiri-aki/gasping/gasping_8": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_8"
+    ]
+  },
+  "voice/packs/07katagiri-aki/gasping/gasping_9": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_9"
     ]
   },
   "voice/packs/07katagiri-aki/high/high_1": {
     "sounds": [
       "stagevoice:voice/packs/07katagiri-aki/high/high_1"
-    ]
-  },
-  "voice/packs/07katagiri-aki/high/high_2": {
-    "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/high/high_2"
-    ]
-  },
-  "voice/packs/07katagiri-aki/high/high_3": {
-    "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/high/high_3"
-    ]
-  },
-  "voice/packs/07katagiri-aki/high/high_4": {
-    "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/high/high_4"
-    ]
-  },
-  "voice/packs/07katagiri-aki/high/high_5": {
-    "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/high/high_5"
-    ]
-  },
-  "voice/packs/07katagiri-aki/high/high_6": {
-    "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/high/high_6"
-    ]
-  },
-  "voice/packs/07katagiri-aki/high/high_7": {
-    "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/high/high_7"
-    ]
-  },
-  "voice/packs/07katagiri-aki/high/high_8": {
-    "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/high/high_8"
-    ]
-  },
-  "voice/packs/07katagiri-aki/high/high_9": {
-    "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/high/high_9"
     ]
   },
   "voice/packs/07katagiri-aki/high/high_10": {
@@ -1709,6 +3664,11 @@
       "stagevoice:voice/packs/07katagiri-aki/high/high_19"
     ]
   },
+  "voice/packs/07katagiri-aki/high/high_2": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/high/high_2"
+    ]
+  },
   "voice/packs/07katagiri-aki/high/high_20": {
     "sounds": [
       "stagevoice:voice/packs/07katagiri-aki/high/high_20"
@@ -1759,6 +3719,11 @@
       "stagevoice:voice/packs/07katagiri-aki/high/high_29"
     ]
   },
+  "voice/packs/07katagiri-aki/high/high_3": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/high/high_3"
+    ]
+  },
   "voice/packs/07katagiri-aki/high/high_30": {
     "sounds": [
       "stagevoice:voice/packs/07katagiri-aki/high/high_30"
@@ -1774,329 +3739,334 @@
       "stagevoice:voice/packs/07katagiri-aki/high/high_32"
     ]
   },
-  "voice/packs/07katagiri-aki/gasping/gasping_1": {
+  "voice/packs/07katagiri-aki/high/high_4": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_1"
+      "stagevoice:voice/packs/07katagiri-aki/high/high_4"
     ]
   },
-  "voice/packs/07katagiri-aki/gasping/gasping_2": {
+  "voice/packs/07katagiri-aki/high/high_5": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_2"
+      "stagevoice:voice/packs/07katagiri-aki/high/high_5"
     ]
   },
-  "voice/packs/07katagiri-aki/gasping/gasping_3": {
+  "voice/packs/07katagiri-aki/high/high_6": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_3"
+      "stagevoice:voice/packs/07katagiri-aki/high/high_6"
     ]
   },
-  "voice/packs/07katagiri-aki/gasping/gasping_4": {
+  "voice/packs/07katagiri-aki/high/high_7": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_4"
+      "stagevoice:voice/packs/07katagiri-aki/high/high_7"
     ]
   },
-  "voice/packs/07katagiri-aki/gasping/gasping_5": {
+  "voice/packs/07katagiri-aki/high/high_8": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_5"
+      "stagevoice:voice/packs/07katagiri-aki/high/high_8"
     ]
   },
-  "voice/packs/07katagiri-aki/gasping/gasping_6": {
+  "voice/packs/07katagiri-aki/high/high_9": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_6"
+      "stagevoice:voice/packs/07katagiri-aki/high/high_9"
     ]
   },
-  "voice/packs/07katagiri-aki/gasping/gasping_7": {
+  "voice/packs/07katagiri-aki/low/low_1": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_7"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_1"
     ]
   },
-  "voice/packs/07katagiri-aki/gasping/gasping_8": {
+  "voice/packs/07katagiri-aki/low/low_10": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_8"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_10"
     ]
   },
-  "voice/packs/07katagiri-aki/gasping/gasping_9": {
+  "voice/packs/07katagiri-aki/low/low_11": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_9"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_11"
     ]
   },
-  "voice/packs/07katagiri-aki/gasping/gasping_10": {
+  "voice/packs/07katagiri-aki/low/low_12": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/gasping/gasping_10"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_12"
     ]
   },
-  "voice/packs/07katagiri-aki/climax/climax_1": {
+  "voice/packs/07katagiri-aki/low/low_13": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/climax/climax_1"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_13"
     ]
   },
-  "voice/packs/07katagiri-aki/climax/climax_2": {
+  "voice/packs/07katagiri-aki/low/low_14": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/climax/climax_2"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_14"
     ]
   },
-  "voice/packs/07katagiri-aki/climax/climax_3": {
+  "voice/packs/07katagiri-aki/low/low_15": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/climax/climax_3"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_15"
     ]
   },
-  "voice/packs/07katagiri-aki/climax/climax_4": {
+  "voice/packs/07katagiri-aki/low/low_16": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/climax/climax_4"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_16"
     ]
   },
-  "voice/packs/07katagiri-aki/climax/climax_5": {
+  "voice/packs/07katagiri-aki/low/low_17": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/climax/climax_5"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_17"
     ]
   },
-  "voice/packs/07katagiri-aki/climax/climax_6": {
+  "voice/packs/07katagiri-aki/low/low_18": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/climax/climax_6"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_18"
     ]
   },
-  "voice/packs/07katagiri-aki/climax/climax_7": {
+  "voice/packs/07katagiri-aki/low/low_19": {
     "sounds": [
-      "stagevoice:voice/packs/07katagiri-aki/climax/climax_7"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_19"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_1": {
+  "voice/packs/07katagiri-aki/low/low_2": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_1"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_2"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_2": {
+  "voice/packs/07katagiri-aki/low/low_3": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_2"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_3"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_3": {
+  "voice/packs/07katagiri-aki/low/low_4": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_3"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_4"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_4": {
+  "voice/packs/07katagiri-aki/low/low_5": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_4"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_5"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_5": {
+  "voice/packs/07katagiri-aki/low/low_6": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_5"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_6"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_6": {
+  "voice/packs/07katagiri-aki/low/low_7": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_6"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_7"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_7": {
+  "voice/packs/07katagiri-aki/low/low_8": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_7"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_8"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_8": {
+  "voice/packs/07katagiri-aki/low/low_9": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_8"
+      "stagevoice:voice/packs/07katagiri-aki/low/low_9"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_9": {
+  "voice/packs/07katagiri-aki/med/med_1": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_9"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_1"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_10": {
+  "voice/packs/07katagiri-aki/med/med_10": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_10"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_10"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_11": {
+  "voice/packs/07katagiri-aki/med/med_11": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_11"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_11"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_12": {
+  "voice/packs/07katagiri-aki/med/med_12": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_12"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_12"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_13": {
+  "voice/packs/07katagiri-aki/med/med_13": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_13"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_13"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_14": {
+  "voice/packs/07katagiri-aki/med/med_14": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_14"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_14"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_15": {
+  "voice/packs/07katagiri-aki/med/med_15": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_15"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_15"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_16": {
+  "voice/packs/07katagiri-aki/med/med_16": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_16"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_16"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_17": {
+  "voice/packs/07katagiri-aki/med/med_17": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_17"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_17"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_18": {
+  "voice/packs/07katagiri-aki/med/med_18": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_18"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_18"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_19": {
+  "voice/packs/07katagiri-aki/med/med_19": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_19"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_19"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_20": {
+  "voice/packs/07katagiri-aki/med/med_2": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_20"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_2"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_21": {
+  "voice/packs/07katagiri-aki/med/med_20": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_21"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_20"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_22": {
+  "voice/packs/07katagiri-aki/med/med_21": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_22"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_21"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_23": {
+  "voice/packs/07katagiri-aki/med/med_22": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_23"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_22"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_24": {
+  "voice/packs/07katagiri-aki/med/med_23": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_24"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_23"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_25": {
+  "voice/packs/07katagiri-aki/med/med_24": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_25"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_24"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_26": {
+  "voice/packs/07katagiri-aki/med/med_25": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_26"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_25"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_27": {
+  "voice/packs/07katagiri-aki/med/med_26": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_27"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_26"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_28": {
+  "voice/packs/07katagiri-aki/med/med_27": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_28"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_27"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_29": {
+  "voice/packs/07katagiri-aki/med/med_28": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_29"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_28"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_30": {
+  "voice/packs/07katagiri-aki/med/med_29": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_30"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_29"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_31": {
+  "voice/packs/07katagiri-aki/med/med_3": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_31"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_3"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_32": {
+  "voice/packs/07katagiri-aki/med/med_30": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_32"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_30"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_33": {
+  "voice/packs/07katagiri-aki/med/med_31": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_33"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_31"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_34": {
+  "voice/packs/07katagiri-aki/med/med_32": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_34"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_32"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_35": {
+  "voice/packs/07katagiri-aki/med/med_33": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_35"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_33"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_36": {
+  "voice/packs/07katagiri-aki/med/med_34": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_36"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_34"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_37": {
+  "voice/packs/07katagiri-aki/med/med_4": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_37"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_4"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_38": {
+  "voice/packs/07katagiri-aki/med/med_5": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_38"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_5"
     ]
   },
-  "voice/packs/08otosaka-kino/high/high_39": {
+  "voice/packs/07katagiri-aki/med/med_6": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/high/high_39"
+      "stagevoice:voice/packs/07katagiri-aki/med/med_6"
+    ]
+  },
+  "voice/packs/07katagiri-aki/med/med_7": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/med/med_7"
+    ]
+  },
+  "voice/packs/07katagiri-aki/med/med_8": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/med/med_8"
+    ]
+  },
+  "voice/packs/07katagiri-aki/med/med_9": {
+    "sounds": [
+      "stagevoice:voice/packs/07katagiri-aki/med/med_9"
+    ]
+  },
+  "voice/packs/08otosaka-kino/climax/climax_1": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/climax/climax_1"
+    ]
+  },
+  "voice/packs/08otosaka-kino/climax/climax_2": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/climax/climax_2"
+    ]
+  },
+  "voice/packs/08otosaka-kino/climax/climax_3": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/climax/climax_3"
+    ]
+  },
+  "voice/packs/08otosaka-kino/climax/climax_4": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/climax/climax_4"
+    ]
+  },
+  "voice/packs/08otosaka-kino/climax/climax_5": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/climax/climax_5"
+    ]
+  },
+  "voice/packs/08otosaka-kino/climax/climax_6": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/climax/climax_6"
     ]
   },
   "voice/packs/08otosaka-kino/gasping/gasping_1": {
     "sounds": [
       "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_1"
-    ]
-  },
-  "voice/packs/08otosaka-kino/gasping/gasping_2": {
-    "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_2"
-    ]
-  },
-  "voice/packs/08otosaka-kino/gasping/gasping_3": {
-    "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_3"
-    ]
-  },
-  "voice/packs/08otosaka-kino/gasping/gasping_4": {
-    "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_4"
-    ]
-  },
-  "voice/packs/08otosaka-kino/gasping/gasping_5": {
-    "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_5"
-    ]
-  },
-  "voice/packs/08otosaka-kino/gasping/gasping_6": {
-    "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_6"
-    ]
-  },
-  "voice/packs/08otosaka-kino/gasping/gasping_7": {
-    "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_7"
-    ]
-  },
-  "voice/packs/08otosaka-kino/gasping/gasping_8": {
-    "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_8"
-    ]
-  },
-  "voice/packs/08otosaka-kino/gasping/gasping_9": {
-    "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_9"
     ]
   },
   "voice/packs/08otosaka-kino/gasping/gasping_10": {
@@ -2149,84 +4119,744 @@
       "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_19"
     ]
   },
+  "voice/packs/08otosaka-kino/gasping/gasping_2": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_2"
+    ]
+  },
   "voice/packs/08otosaka-kino/gasping/gasping_20": {
     "sounds": [
       "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_20"
     ]
   },
-  "voice/packs/08otosaka-kino/climax/climax_1": {
+  "voice/packs/08otosaka-kino/gasping/gasping_3": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/climax/climax_1"
+      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_3"
     ]
   },
-  "voice/packs/08otosaka-kino/climax/climax_2": {
+  "voice/packs/08otosaka-kino/gasping/gasping_4": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/climax/climax_2"
+      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_4"
     ]
   },
-  "voice/packs/08otosaka-kino/climax/climax_3": {
+  "voice/packs/08otosaka-kino/gasping/gasping_5": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/climax/climax_3"
+      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_5"
     ]
   },
-  "voice/packs/08otosaka-kino/climax/climax_4": {
+  "voice/packs/08otosaka-kino/gasping/gasping_6": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/climax/climax_4"
+      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_6"
     ]
   },
-  "voice/packs/08otosaka-kino/climax/climax_5": {
+  "voice/packs/08otosaka-kino/gasping/gasping_7": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/climax/climax_5"
+      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_7"
     ]
   },
-  "voice/packs/08otosaka-kino/climax/climax_6": {
+  "voice/packs/08otosaka-kino/gasping/gasping_8": {
     "sounds": [
-      "stagevoice:voice/packs/08otosaka-kino/climax/climax_6"
+      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_8"
+    ]
+  },
+  "voice/packs/08otosaka-kino/gasping/gasping_9": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/gasping/gasping_9"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_1": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_1"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_10": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_10"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_11": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_11"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_12": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_12"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_13": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_13"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_14": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_14"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_15": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_15"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_16": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_16"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_17": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_17"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_18": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_18"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_19": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_19"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_2": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_2"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_20": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_20"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_21": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_21"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_22": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_22"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_23": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_23"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_24": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_24"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_25": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_25"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_26": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_26"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_27": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_27"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_28": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_28"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_29": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_29"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_3": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_3"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_30": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_30"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_31": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_31"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_32": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_32"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_33": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_33"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_34": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_34"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_35": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_35"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_36": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_36"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_37": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_37"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_38": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_38"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_39": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_39"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_4": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_4"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_5": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_5"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_6": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_6"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_7": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_7"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_8": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_8"
+    ]
+  },
+  "voice/packs/08otosaka-kino/high/high_9": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/high/high_9"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_1": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_1"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_10": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_10"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_11": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_11"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_12": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_12"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_13": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_13"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_14": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_14"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_15": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_15"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_16": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_16"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_17": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_17"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_18": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_18"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_19": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_19"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_2": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_2"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_20": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_20"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_21": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_21"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_22": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_22"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_23": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_23"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_24": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_24"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_25": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_25"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_26": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_26"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_27": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_27"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_28": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_28"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_29": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_29"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_3": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_3"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_30": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_30"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_31": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_31"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_32": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_32"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_33": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_33"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_34": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_34"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_35": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_35"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_36": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_36"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_37": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_37"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_38": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_38"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_39": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_39"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_4": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_4"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_5": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_5"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_6": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_6"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_7": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_7"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_8": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_8"
+    ]
+  },
+  "voice/packs/08otosaka-kino/low/low_9": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/low/low_9"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_1": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_1"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_10": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_10"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_11": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_11"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_12": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_12"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_13": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_13"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_14": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_14"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_15": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_15"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_16": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_16"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_17": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_17"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_18": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_18"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_19": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_19"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_2": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_2"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_20": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_20"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_21": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_21"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_22": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_22"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_23": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_23"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_24": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_24"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_25": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_25"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_26": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_26"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_27": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_27"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_28": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_28"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_29": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_29"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_3": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_3"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_30": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_30"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_31": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_31"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_32": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_32"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_33": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_33"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_34": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_34"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_35": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_35"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_36": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_36"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_37": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_37"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_38": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_38"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_39": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_39"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_4": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_4"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_5": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_5"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_6": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_6"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_7": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_7"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_8": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_8"
+    ]
+  },
+  "voice/packs/08otosaka-kino/med/med_9": {
+    "sounds": [
+      "stagevoice:voice/packs/08otosaka-kino/med/med_9"
+    ]
+  },
+  "voice/packs/09asahina-yuno/climax/climax_1": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/climax/climax_1"
+    ]
+  },
+  "voice/packs/09asahina-yuno/climax/climax_2": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/climax/climax_2"
+    ]
+  },
+  "voice/packs/09asahina-yuno/climax/climax_3": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/climax/climax_3"
+    ]
+  },
+  "voice/packs/09asahina-yuno/climax/climax_4": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/climax/climax_4"
+    ]
+  },
+  "voice/packs/09asahina-yuno/climax/climax_5": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/climax/climax_5"
+    ]
+  },
+  "voice/packs/09asahina-yuno/climax/climax_6": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/climax/climax_6"
+    ]
+  },
+  "voice/packs/09asahina-yuno/gasping/gasping_1": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_1"
+    ]
+  },
+  "voice/packs/09asahina-yuno/gasping/gasping_10": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_10"
+    ]
+  },
+  "voice/packs/09asahina-yuno/gasping/gasping_11": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_11"
+    ]
+  },
+  "voice/packs/09asahina-yuno/gasping/gasping_12": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_12"
+    ]
+  },
+  "voice/packs/09asahina-yuno/gasping/gasping_13": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_13"
+    ]
+  },
+  "voice/packs/09asahina-yuno/gasping/gasping_14": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_14"
+    ]
+  },
+  "voice/packs/09asahina-yuno/gasping/gasping_15": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_15"
+    ]
+  },
+  "voice/packs/09asahina-yuno/gasping/gasping_2": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_2"
+    ]
+  },
+  "voice/packs/09asahina-yuno/gasping/gasping_3": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_3"
+    ]
+  },
+  "voice/packs/09asahina-yuno/gasping/gasping_4": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_4"
+    ]
+  },
+  "voice/packs/09asahina-yuno/gasping/gasping_5": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_5"
+    ]
+  },
+  "voice/packs/09asahina-yuno/gasping/gasping_6": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_6"
+    ]
+  },
+  "voice/packs/09asahina-yuno/gasping/gasping_7": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_7"
+    ]
+  },
+  "voice/packs/09asahina-yuno/gasping/gasping_8": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_8"
+    ]
+  },
+  "voice/packs/09asahina-yuno/gasping/gasping_9": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_9"
     ]
   },
   "voice/packs/09asahina-yuno/high/high_1": {
     "sounds": [
       "stagevoice:voice/packs/09asahina-yuno/high/high_1"
-    ]
-  },
-  "voice/packs/09asahina-yuno/high/high_2": {
-    "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/high/high_2"
-    ]
-  },
-  "voice/packs/09asahina-yuno/high/high_3": {
-    "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/high/high_3"
-    ]
-  },
-  "voice/packs/09asahina-yuno/high/high_4": {
-    "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/high/high_4"
-    ]
-  },
-  "voice/packs/09asahina-yuno/high/high_5": {
-    "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/high/high_5"
-    ]
-  },
-  "voice/packs/09asahina-yuno/high/high_6": {
-    "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/high/high_6"
-    ]
-  },
-  "voice/packs/09asahina-yuno/high/high_7": {
-    "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/high/high_7"
-    ]
-  },
-  "voice/packs/09asahina-yuno/high/high_8": {
-    "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/high/high_8"
-    ]
-  },
-  "voice/packs/09asahina-yuno/high/high_9": {
-    "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/high/high_9"
     ]
   },
   "voice/packs/09asahina-yuno/high/high_10": {
@@ -2279,6 +4909,11 @@
       "stagevoice:voice/packs/09asahina-yuno/high/high_19"
     ]
   },
+  "voice/packs/09asahina-yuno/high/high_2": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/high/high_2"
+    ]
+  },
   "voice/packs/09asahina-yuno/high/high_20": {
     "sounds": [
       "stagevoice:voice/packs/09asahina-yuno/high/high_20"
@@ -2327,6 +4962,11 @@
   "voice/packs/09asahina-yuno/high/high_29": {
     "sounds": [
       "stagevoice:voice/packs/09asahina-yuno/high/high_29"
+    ]
+  },
+  "voice/packs/09asahina-yuno/high/high_3": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/high/high_3"
     ]
   },
   "voice/packs/09asahina-yuno/high/high_30": {
@@ -2379,349 +5019,464 @@
       "stagevoice:voice/packs/09asahina-yuno/high/high_39"
     ]
   },
-  "voice/packs/09asahina-yuno/gasping/gasping_1": {
+  "voice/packs/09asahina-yuno/high/high_4": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_1"
+      "stagevoice:voice/packs/09asahina-yuno/high/high_4"
     ]
   },
-  "voice/packs/09asahina-yuno/gasping/gasping_2": {
+  "voice/packs/09asahina-yuno/high/high_5": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_2"
+      "stagevoice:voice/packs/09asahina-yuno/high/high_5"
     ]
   },
-  "voice/packs/09asahina-yuno/gasping/gasping_3": {
+  "voice/packs/09asahina-yuno/high/high_6": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_3"
+      "stagevoice:voice/packs/09asahina-yuno/high/high_6"
     ]
   },
-  "voice/packs/09asahina-yuno/gasping/gasping_4": {
+  "voice/packs/09asahina-yuno/high/high_7": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_4"
+      "stagevoice:voice/packs/09asahina-yuno/high/high_7"
     ]
   },
-  "voice/packs/09asahina-yuno/gasping/gasping_5": {
+  "voice/packs/09asahina-yuno/high/high_8": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_5"
+      "stagevoice:voice/packs/09asahina-yuno/high/high_8"
     ]
   },
-  "voice/packs/09asahina-yuno/gasping/gasping_6": {
+  "voice/packs/09asahina-yuno/high/high_9": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_6"
+      "stagevoice:voice/packs/09asahina-yuno/high/high_9"
     ]
   },
-  "voice/packs/09asahina-yuno/gasping/gasping_7": {
+  "voice/packs/09asahina-yuno/low/low_1": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_7"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_1"
     ]
   },
-  "voice/packs/09asahina-yuno/gasping/gasping_8": {
+  "voice/packs/09asahina-yuno/low/low_10": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_8"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_10"
     ]
   },
-  "voice/packs/09asahina-yuno/gasping/gasping_9": {
+  "voice/packs/09asahina-yuno/low/low_11": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_9"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_11"
     ]
   },
-  "voice/packs/09asahina-yuno/gasping/gasping_10": {
+  "voice/packs/09asahina-yuno/low/low_12": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_10"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_12"
     ]
   },
-  "voice/packs/09asahina-yuno/gasping/gasping_11": {
+  "voice/packs/09asahina-yuno/low/low_13": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_11"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_13"
     ]
   },
-  "voice/packs/09asahina-yuno/gasping/gasping_12": {
+  "voice/packs/09asahina-yuno/low/low_14": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_12"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_14"
     ]
   },
-  "voice/packs/09asahina-yuno/gasping/gasping_13": {
+  "voice/packs/09asahina-yuno/low/low_15": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_13"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_15"
     ]
   },
-  "voice/packs/09asahina-yuno/gasping/gasping_14": {
+  "voice/packs/09asahina-yuno/low/low_16": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_14"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_16"
     ]
   },
-  "voice/packs/09asahina-yuno/gasping/gasping_15": {
+  "voice/packs/09asahina-yuno/low/low_17": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/gasping/gasping_15"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_17"
     ]
   },
-  "voice/packs/09asahina-yuno/climax/climax_1": {
+  "voice/packs/09asahina-yuno/low/low_18": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/climax/climax_1"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_18"
     ]
   },
-  "voice/packs/09asahina-yuno/climax/climax_2": {
+  "voice/packs/09asahina-yuno/low/low_19": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/climax/climax_2"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_19"
     ]
   },
-  "voice/packs/09asahina-yuno/climax/climax_3": {
+  "voice/packs/09asahina-yuno/low/low_2": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/climax/climax_3"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_2"
     ]
   },
-  "voice/packs/09asahina-yuno/climax/climax_4": {
+  "voice/packs/09asahina-yuno/low/low_20": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/climax/climax_4"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_20"
     ]
   },
-  "voice/packs/09asahina-yuno/climax/climax_5": {
+  "voice/packs/09asahina-yuno/low/low_21": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/climax/climax_5"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_21"
     ]
   },
-  "voice/packs/09asahina-yuno/climax/climax_6": {
+  "voice/packs/09asahina-yuno/low/low_22": {
     "sounds": [
-      "stagevoice:voice/packs/09asahina-yuno/climax/climax_6"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_22"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_1": {
+  "voice/packs/09asahina-yuno/low/low_23": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_1"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_23"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_2": {
+  "voice/packs/09asahina-yuno/low/low_24": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_2"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_24"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_3": {
+  "voice/packs/09asahina-yuno/low/low_25": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_3"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_25"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_4": {
+  "voice/packs/09asahina-yuno/low/low_26": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_4"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_26"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_5": {
+  "voice/packs/09asahina-yuno/low/low_27": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_5"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_27"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_6": {
+  "voice/packs/09asahina-yuno/low/low_28": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_6"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_28"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_7": {
+  "voice/packs/09asahina-yuno/low/low_29": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_7"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_29"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_8": {
+  "voice/packs/09asahina-yuno/low/low_3": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_8"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_3"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_9": {
+  "voice/packs/09asahina-yuno/low/low_30": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_9"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_30"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_10": {
+  "voice/packs/09asahina-yuno/low/low_31": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_10"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_31"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_11": {
+  "voice/packs/09asahina-yuno/low/low_32": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_11"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_32"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_12": {
+  "voice/packs/09asahina-yuno/low/low_33": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_12"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_33"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_13": {
+  "voice/packs/09asahina-yuno/low/low_34": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_13"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_34"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_14": {
+  "voice/packs/09asahina-yuno/low/low_35": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_14"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_35"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_15": {
+  "voice/packs/09asahina-yuno/low/low_36": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_15"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_36"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_16": {
+  "voice/packs/09asahina-yuno/low/low_37": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_16"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_37"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_17": {
+  "voice/packs/09asahina-yuno/low/low_38": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_17"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_38"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_18": {
+  "voice/packs/09asahina-yuno/low/low_39": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_18"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_39"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_19": {
+  "voice/packs/09asahina-yuno/low/low_4": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_19"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_4"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_20": {
+  "voice/packs/09asahina-yuno/low/low_5": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_20"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_5"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_21": {
+  "voice/packs/09asahina-yuno/low/low_6": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_21"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_6"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_22": {
+  "voice/packs/09asahina-yuno/low/low_7": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_22"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_7"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_23": {
+  "voice/packs/09asahina-yuno/low/low_8": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_23"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_8"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_24": {
+  "voice/packs/09asahina-yuno/low/low_9": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_24"
+      "stagevoice:voice/packs/09asahina-yuno/low/low_9"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_25": {
+  "voice/packs/09asahina-yuno/med/med_1": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_25"
+      "stagevoice:voice/packs/09asahina-yuno/med/med_1"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_26": {
+  "voice/packs/09asahina-yuno/med/med_10": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_26"
+      "stagevoice:voice/packs/09asahina-yuno/med/med_10"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_27": {
+  "voice/packs/09asahina-yuno/med/med_11": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_27"
+      "stagevoice:voice/packs/09asahina-yuno/med/med_11"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_28": {
+  "voice/packs/09asahina-yuno/med/med_12": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_28"
+      "stagevoice:voice/packs/09asahina-yuno/med/med_12"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_29": {
+  "voice/packs/09asahina-yuno/med/med_13": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_29"
+      "stagevoice:voice/packs/09asahina-yuno/med/med_13"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_30": {
+  "voice/packs/09asahina-yuno/med/med_14": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_30"
+      "stagevoice:voice/packs/09asahina-yuno/med/med_14"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_31": {
+  "voice/packs/09asahina-yuno/med/med_15": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_31"
+      "stagevoice:voice/packs/09asahina-yuno/med/med_15"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_32": {
+  "voice/packs/09asahina-yuno/med/med_16": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_32"
+      "stagevoice:voice/packs/09asahina-yuno/med/med_16"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_33": {
+  "voice/packs/09asahina-yuno/med/med_17": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_33"
+      "stagevoice:voice/packs/09asahina-yuno/med/med_17"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_34": {
+  "voice/packs/09asahina-yuno/med/med_18": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_34"
+      "stagevoice:voice/packs/09asahina-yuno/med/med_18"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_35": {
+  "voice/packs/09asahina-yuno/med/med_19": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_35"
+      "stagevoice:voice/packs/09asahina-yuno/med/med_19"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_36": {
+  "voice/packs/09asahina-yuno/med/med_2": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_36"
+      "stagevoice:voice/packs/09asahina-yuno/med/med_2"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_37": {
+  "voice/packs/09asahina-yuno/med/med_20": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_37"
+      "stagevoice:voice/packs/09asahina-yuno/med/med_20"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_38": {
+  "voice/packs/09asahina-yuno/med/med_21": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_38"
+      "stagevoice:voice/packs/09asahina-yuno/med/med_21"
     ]
   },
-  "voice/packs/10nekono-shirone/high/high_39": {
+  "voice/packs/09asahina-yuno/med/med_22": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/high/high_39"
+      "stagevoice:voice/packs/09asahina-yuno/med/med_22"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_23": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_23"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_24": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_24"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_25": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_25"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_26": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_26"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_27": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_27"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_28": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_28"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_29": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_29"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_3": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_3"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_30": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_30"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_31": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_31"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_32": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_32"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_33": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_33"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_34": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_34"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_35": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_35"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_36": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_36"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_37": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_37"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_38": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_38"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_39": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_39"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_4": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_4"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_5": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_5"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_6": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_6"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_7": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_7"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_8": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_8"
+    ]
+  },
+  "voice/packs/09asahina-yuno/med/med_9": {
+    "sounds": [
+      "stagevoice:voice/packs/09asahina-yuno/med/med_9"
+    ]
+  },
+  "voice/packs/10nekono-shirone/climax/climax_1": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/climax/climax_1"
+    ]
+  },
+  "voice/packs/10nekono-shirone/climax/climax_2": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/climax/climax_2"
+    ]
+  },
+  "voice/packs/10nekono-shirone/climax/climax_3": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/climax/climax_3"
+    ]
+  },
+  "voice/packs/10nekono-shirone/climax/climax_4": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/climax/climax_4"
+    ]
+  },
+  "voice/packs/10nekono-shirone/climax/climax_5": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/climax/climax_5"
+    ]
+  },
+  "voice/packs/10nekono-shirone/climax/climax_6": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/climax/climax_6"
+    ]
+  },
+  "voice/packs/10nekono-shirone/climax/climax_7": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/climax/climax_7"
     ]
   },
   "voice/packs/10nekono-shirone/gasping/gasping_1": {
     "sounds": [
       "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_1"
-    ]
-  },
-  "voice/packs/10nekono-shirone/gasping/gasping_2": {
-    "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_2"
-    ]
-  },
-  "voice/packs/10nekono-shirone/gasping/gasping_3": {
-    "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_3"
-    ]
-  },
-  "voice/packs/10nekono-shirone/gasping/gasping_4": {
-    "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_4"
-    ]
-  },
-  "voice/packs/10nekono-shirone/gasping/gasping_5": {
-    "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_5"
-    ]
-  },
-  "voice/packs/10nekono-shirone/gasping/gasping_6": {
-    "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_6"
-    ]
-  },
-  "voice/packs/10nekono-shirone/gasping/gasping_7": {
-    "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_7"
-    ]
-  },
-  "voice/packs/10nekono-shirone/gasping/gasping_8": {
-    "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_8"
-    ]
-  },
-  "voice/packs/10nekono-shirone/gasping/gasping_9": {
-    "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_9"
     ]
   },
   "voice/packs/10nekono-shirone/gasping/gasping_10": {
@@ -2774,6 +5529,11 @@
       "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_19"
     ]
   },
+  "voice/packs/10nekono-shirone/gasping/gasping_2": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_2"
+    ]
+  },
   "voice/packs/10nekono-shirone/gasping/gasping_20": {
     "sounds": [
       "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_20"
@@ -2784,84 +5544,679 @@
       "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_21"
     ]
   },
-  "voice/packs/10nekono-shirone/climax/climax_1": {
+  "voice/packs/10nekono-shirone/gasping/gasping_3": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/climax/climax_1"
+      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_3"
     ]
   },
-  "voice/packs/10nekono-shirone/climax/climax_2": {
+  "voice/packs/10nekono-shirone/gasping/gasping_4": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/climax/climax_2"
+      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_4"
     ]
   },
-  "voice/packs/10nekono-shirone/climax/climax_3": {
+  "voice/packs/10nekono-shirone/gasping/gasping_5": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/climax/climax_3"
+      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_5"
     ]
   },
-  "voice/packs/10nekono-shirone/climax/climax_4": {
+  "voice/packs/10nekono-shirone/gasping/gasping_6": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/climax/climax_4"
+      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_6"
     ]
   },
-  "voice/packs/10nekono-shirone/climax/climax_5": {
+  "voice/packs/10nekono-shirone/gasping/gasping_7": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/climax/climax_5"
+      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_7"
     ]
   },
-  "voice/packs/10nekono-shirone/climax/climax_6": {
+  "voice/packs/10nekono-shirone/gasping/gasping_8": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/climax/climax_6"
+      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_8"
     ]
   },
-  "voice/packs/10nekono-shirone/climax/climax_7": {
+  "voice/packs/10nekono-shirone/gasping/gasping_9": {
     "sounds": [
-      "stagevoice:voice/packs/10nekono-shirone/climax/climax_7"
+      "stagevoice:voice/packs/10nekono-shirone/gasping/gasping_9"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_1": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_1"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_10": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_10"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_11": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_11"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_12": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_12"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_13": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_13"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_14": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_14"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_15": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_15"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_16": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_16"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_17": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_17"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_18": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_18"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_19": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_19"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_2": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_2"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_20": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_20"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_21": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_21"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_22": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_22"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_23": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_23"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_24": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_24"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_25": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_25"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_26": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_26"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_27": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_27"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_28": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_28"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_29": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_29"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_3": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_3"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_30": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_30"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_31": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_31"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_32": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_32"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_33": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_33"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_34": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_34"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_35": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_35"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_36": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_36"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_37": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_37"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_38": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_38"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_39": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_39"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_4": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_4"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_5": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_5"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_6": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_6"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_7": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_7"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_8": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_8"
+    ]
+  },
+  "voice/packs/10nekono-shirone/high/high_9": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/high/high_9"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_1": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_1"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_10": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_10"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_11": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_11"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_12": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_12"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_13": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_13"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_14": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_14"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_15": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_15"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_16": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_16"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_17": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_17"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_18": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_18"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_19": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_19"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_2": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_2"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_20": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_20"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_21": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_21"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_22": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_22"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_23": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_23"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_24": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_24"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_25": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_25"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_26": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_26"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_27": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_27"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_28": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_28"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_29": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_29"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_3": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_3"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_30": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_30"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_31": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_31"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_32": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_32"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_33": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_33"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_4": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_4"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_5": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_5"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_6": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_6"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_7": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_7"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_8": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_8"
+    ]
+  },
+  "voice/packs/10nekono-shirone/low/low_9": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/low/low_9"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_1": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_1"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_10": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_10"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_11": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_11"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_12": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_12"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_13": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_13"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_14": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_14"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_15": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_15"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_16": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_16"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_17": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_17"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_18": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_18"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_19": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_19"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_2": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_2"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_20": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_20"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_21": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_21"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_22": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_22"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_23": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_23"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_24": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_24"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_25": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_25"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_26": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_26"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_27": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_27"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_28": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_28"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_29": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_29"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_3": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_3"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_30": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_30"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_31": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_31"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_32": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_32"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_33": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_33"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_34": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_34"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_35": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_35"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_36": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_36"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_37": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_37"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_38": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_38"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_39": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_39"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_4": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_4"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_5": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_5"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_6": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_6"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_7": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_7"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_8": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_8"
+    ]
+  },
+  "voice/packs/10nekono-shirone/med/med_9": {
+    "sounds": [
+      "stagevoice:voice/packs/10nekono-shirone/med/med_9"
+    ]
+  },
+  "voice/packs/11tadai-marisa/climax/climax_1": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/climax/climax_1"
+    ]
+  },
+  "voice/packs/11tadai-marisa/climax/climax_2": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/climax/climax_2"
+    ]
+  },
+  "voice/packs/11tadai-marisa/climax/climax_3": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/climax/climax_3"
+    ]
+  },
+  "voice/packs/11tadai-marisa/climax/climax_4": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/climax/climax_4"
+    ]
+  },
+  "voice/packs/11tadai-marisa/climax/climax_5": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/climax/climax_5"
+    ]
+  },
+  "voice/packs/11tadai-marisa/climax/climax_6": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/climax/climax_6"
+    ]
+  },
+  "voice/packs/11tadai-marisa/gasping/gasping_1": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_1"
+    ]
+  },
+  "voice/packs/11tadai-marisa/gasping/gasping_10": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_10"
+    ]
+  },
+  "voice/packs/11tadai-marisa/gasping/gasping_2": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_2"
+    ]
+  },
+  "voice/packs/11tadai-marisa/gasping/gasping_3": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_3"
+    ]
+  },
+  "voice/packs/11tadai-marisa/gasping/gasping_4": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_4"
+    ]
+  },
+  "voice/packs/11tadai-marisa/gasping/gasping_5": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_5"
+    ]
+  },
+  "voice/packs/11tadai-marisa/gasping/gasping_6": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_6"
+    ]
+  },
+  "voice/packs/11tadai-marisa/gasping/gasping_7": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_7"
+    ]
+  },
+  "voice/packs/11tadai-marisa/gasping/gasping_8": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_8"
+    ]
+  },
+  "voice/packs/11tadai-marisa/gasping/gasping_9": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_9"
     ]
   },
   "voice/packs/11tadai-marisa/high/high_1": {
     "sounds": [
       "stagevoice:voice/packs/11tadai-marisa/high/high_1"
-    ]
-  },
-  "voice/packs/11tadai-marisa/high/high_2": {
-    "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/high/high_2"
-    ]
-  },
-  "voice/packs/11tadai-marisa/high/high_3": {
-    "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/high/high_3"
-    ]
-  },
-  "voice/packs/11tadai-marisa/high/high_4": {
-    "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/high/high_4"
-    ]
-  },
-  "voice/packs/11tadai-marisa/high/high_5": {
-    "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/high/high_5"
-    ]
-  },
-  "voice/packs/11tadai-marisa/high/high_6": {
-    "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/high/high_6"
-    ]
-  },
-  "voice/packs/11tadai-marisa/high/high_7": {
-    "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/high/high_7"
-    ]
-  },
-  "voice/packs/11tadai-marisa/high/high_8": {
-    "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/high/high_8"
-    ]
-  },
-  "voice/packs/11tadai-marisa/high/high_9": {
-    "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/high/high_9"
     ]
   },
   "voice/packs/11tadai-marisa/high/high_10": {
@@ -2914,6 +6269,11 @@
       "stagevoice:voice/packs/11tadai-marisa/high/high_19"
     ]
   },
+  "voice/packs/11tadai-marisa/high/high_2": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/high/high_2"
+    ]
+  },
   "voice/packs/11tadai-marisa/high/high_20": {
     "sounds": [
       "stagevoice:voice/packs/11tadai-marisa/high/high_20"
@@ -2962,6 +6322,11 @@
   "voice/packs/11tadai-marisa/high/high_29": {
     "sounds": [
       "stagevoice:voice/packs/11tadai-marisa/high/high_29"
+    ]
+  },
+  "voice/packs/11tadai-marisa/high/high_3": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/high/high_3"
     ]
   },
   "voice/packs/11tadai-marisa/high/high_30": {
@@ -3014,6 +6379,11 @@
       "stagevoice:voice/packs/11tadai-marisa/high/high_39"
     ]
   },
+  "voice/packs/11tadai-marisa/high/high_4": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/high/high_4"
+    ]
+  },
   "voice/packs/11tadai-marisa/high/high_40": {
     "sounds": [
       "stagevoice:voice/packs/11tadai-marisa/high/high_40"
@@ -3044,84 +6414,189 @@
       "stagevoice:voice/packs/11tadai-marisa/high/high_45"
     ]
   },
-  "voice/packs/11tadai-marisa/gasping/gasping_1": {
+  "voice/packs/11tadai-marisa/high/high_5": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_1"
+      "stagevoice:voice/packs/11tadai-marisa/high/high_5"
     ]
   },
-  "voice/packs/11tadai-marisa/gasping/gasping_2": {
+  "voice/packs/11tadai-marisa/high/high_6": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_2"
+      "stagevoice:voice/packs/11tadai-marisa/high/high_6"
     ]
   },
-  "voice/packs/11tadai-marisa/gasping/gasping_3": {
+  "voice/packs/11tadai-marisa/high/high_7": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_3"
+      "stagevoice:voice/packs/11tadai-marisa/high/high_7"
     ]
   },
-  "voice/packs/11tadai-marisa/gasping/gasping_4": {
+  "voice/packs/11tadai-marisa/high/high_8": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_4"
+      "stagevoice:voice/packs/11tadai-marisa/high/high_8"
     ]
   },
-  "voice/packs/11tadai-marisa/gasping/gasping_5": {
+  "voice/packs/11tadai-marisa/high/high_9": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_5"
+      "stagevoice:voice/packs/11tadai-marisa/high/high_9"
     ]
   },
-  "voice/packs/11tadai-marisa/gasping/gasping_6": {
+  "voice/packs/11tadai-marisa/low/low_1": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_6"
+      "stagevoice:voice/packs/11tadai-marisa/low/low_1"
     ]
   },
-  "voice/packs/11tadai-marisa/gasping/gasping_7": {
+  "voice/packs/11tadai-marisa/low/low_10": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_7"
+      "stagevoice:voice/packs/11tadai-marisa/low/low_10"
     ]
   },
-  "voice/packs/11tadai-marisa/gasping/gasping_8": {
+  "voice/packs/11tadai-marisa/low/low_11": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_8"
+      "stagevoice:voice/packs/11tadai-marisa/low/low_11"
     ]
   },
-  "voice/packs/11tadai-marisa/gasping/gasping_9": {
+  "voice/packs/11tadai-marisa/low/low_12": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_9"
+      "stagevoice:voice/packs/11tadai-marisa/low/low_12"
     ]
   },
-  "voice/packs/11tadai-marisa/gasping/gasping_10": {
+  "voice/packs/11tadai-marisa/low/low_13": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/gasping/gasping_10"
+      "stagevoice:voice/packs/11tadai-marisa/low/low_13"
     ]
   },
-  "voice/packs/11tadai-marisa/climax/climax_1": {
+  "voice/packs/11tadai-marisa/low/low_14": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/climax/climax_1"
+      "stagevoice:voice/packs/11tadai-marisa/low/low_14"
     ]
   },
-  "voice/packs/11tadai-marisa/climax/climax_2": {
+  "voice/packs/11tadai-marisa/low/low_15": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/climax/climax_2"
+      "stagevoice:voice/packs/11tadai-marisa/low/low_15"
     ]
   },
-  "voice/packs/11tadai-marisa/climax/climax_3": {
+  "voice/packs/11tadai-marisa/low/low_16": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/climax/climax_3"
+      "stagevoice:voice/packs/11tadai-marisa/low/low_16"
     ]
   },
-  "voice/packs/11tadai-marisa/climax/climax_4": {
+  "voice/packs/11tadai-marisa/low/low_17": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/climax/climax_4"
+      "stagevoice:voice/packs/11tadai-marisa/low/low_17"
     ]
   },
-  "voice/packs/11tadai-marisa/climax/climax_5": {
+  "voice/packs/11tadai-marisa/low/low_18": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/climax/climax_5"
+      "stagevoice:voice/packs/11tadai-marisa/low/low_18"
     ]
   },
-  "voice/packs/11tadai-marisa/climax/climax_6": {
+  "voice/packs/11tadai-marisa/low/low_2": {
     "sounds": [
-      "stagevoice:voice/packs/11tadai-marisa/climax/climax_6"
+      "stagevoice:voice/packs/11tadai-marisa/low/low_2"
+    ]
+  },
+  "voice/packs/11tadai-marisa/low/low_3": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/low/low_3"
+    ]
+  },
+  "voice/packs/11tadai-marisa/low/low_4": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/low/low_4"
+    ]
+  },
+  "voice/packs/11tadai-marisa/low/low_5": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/low/low_5"
+    ]
+  },
+  "voice/packs/11tadai-marisa/low/low_6": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/low/low_6"
+    ]
+  },
+  "voice/packs/11tadai-marisa/low/low_7": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/low/low_7"
+    ]
+  },
+  "voice/packs/11tadai-marisa/low/low_8": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/low/low_8"
+    ]
+  },
+  "voice/packs/11tadai-marisa/low/low_9": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/low/low_9"
+    ]
+  },
+  "voice/packs/11tadai-marisa/med/med_1": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/med/med_1"
+    ]
+  },
+  "voice/packs/11tadai-marisa/med/med_10": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/med/med_10"
+    ]
+  },
+  "voice/packs/11tadai-marisa/med/med_11": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/med/med_11"
+    ]
+  },
+  "voice/packs/11tadai-marisa/med/med_12": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/med/med_12"
+    ]
+  },
+  "voice/packs/11tadai-marisa/med/med_13": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/med/med_13"
+    ]
+  },
+  "voice/packs/11tadai-marisa/med/med_14": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/med/med_14"
+    ]
+  },
+  "voice/packs/11tadai-marisa/med/med_2": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/med/med_2"
+    ]
+  },
+  "voice/packs/11tadai-marisa/med/med_3": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/med/med_3"
+    ]
+  },
+  "voice/packs/11tadai-marisa/med/med_4": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/med/med_4"
+    ]
+  },
+  "voice/packs/11tadai-marisa/med/med_5": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/med/med_5"
+    ]
+  },
+  "voice/packs/11tadai-marisa/med/med_6": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/med/med_6"
+    ]
+  },
+  "voice/packs/11tadai-marisa/med/med_7": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/med/med_7"
+    ]
+  },
+  "voice/packs/11tadai-marisa/med/med_8": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/med/med_8"
+    ]
+  },
+  "voice/packs/11tadai-marisa/med/med_9": {
+    "sounds": [
+      "stagevoice:voice/packs/11tadai-marisa/med/med_9"
     ]
   }
 }

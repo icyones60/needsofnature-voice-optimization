@@ -1,4 +1,5 @@
 {
-  "key.category.stagevoice.controls": "NeedsOfNature Voice Optimization Options",
-  "key.stagevoice.open_settings": "打开音效设置"
+  "key.category.stagevoice.controls": "NON音频优化",
+  "key.stagevoice.open_settings": "打开音效设置",
+  "key.stagevoice.toggle_debug": "打开调试功能"
 }

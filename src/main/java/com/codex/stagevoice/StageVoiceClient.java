@@ -15,6 +15,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvent;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -45,7 +46,15 @@ public final class StageVoiceClient implements ClientModInitializer {
             "on_back",
             "on_belly",
             "on_block",
-            "on_wall"
+            "on_a_block",
+            "against_block",
+            "on_wall",
+            "on_a_wall",
+            "against_wall",
+            "stuckfence",
+            "slimewall",
+            "on_knees",
+            "pronebone"
     );
 
     private static final Map<String, List<SoundEvent>> PACK_SOUNDS = registerPackSounds();
@@ -54,6 +63,8 @@ public final class StageVoiceClient implements ClientModInitializer {
     private static final Map<UUID, QueuedStart> QUEUED_STARTS = new HashMap<>();
     private static final Map<UUID, PlayingSound> PLAYING_SOUNDS = new HashMap<>();
     private static KeyBinding openSettingsKey;
+    private static KeyBinding debugKey;
+    private static boolean debugEnabled;
     private static List<SoundInstance> previewLayers = List.of();
     private static Screen previewOwner;
     private static RuntimeAccess runtime;
@@ -84,6 +95,11 @@ public final class StageVoiceClient implements ClientModInitializer {
         CONFIG.initialize();
         openSettingsKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 "key.stagevoice.open_settings",
+                InputUtil.Type.KEYSYM,
+                InputUtil.UNKNOWN_KEY.getCode(),
+                KEY_CATEGORY));
+        debugKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
+                "key.stagevoice.toggle_debug",
                 InputUtil.Type.KEYSYM,
                 InputUtil.UNKNOWN_KEY.getCode(),
                 KEY_CATEGORY));
@@ -200,19 +216,23 @@ public final class StageVoiceClient implements ClientModInitializer {
         }
         Set<UUID> seen = new HashSet<>();
         Map<UUID, PlayerEntity> anchors = new HashMap<>();
+        Map<UUID, Set<UUID>> actorIdsByInstance = new HashMap<>();
 
-        registerQueuedStarts(client, nowTick, nowMillis, seen, anchors);
+        registerQueuedStarts(client, nowTick, nowMillis, seen, anchors, actorIdsByInstance);
 
         for (PlayerEntity player : client.world.getPlayers()) {
             UUID instanceId = access.latestInstanceContaining(player.getUuid());
             if (instanceId == null) continue;
             seen.add(instanceId);
+            actorIdsByInstance
+                    .computeIfAbsent(instanceId, ignored -> new HashSet<>())
+                    .add(player.getUuid());
             PlayerEntity previous = anchors.get(instanceId);
             if (previous == null || player == client.player) anchors.put(instanceId, player);
         }
 
         TRACKED.keySet().removeIf(instanceId -> !seen.contains(instanceId));
-        observeStages(access, nowTick, nowMillis, anchors);
+        observeStages(access, nowTick, nowMillis, anchors, actorIdsByInstance);
         playDueSounds(client, nowMillis);
     }
 
@@ -220,6 +240,20 @@ public final class StageVoiceClient implements ClientModInitializer {
         while (openSettingsKey != null && openSettingsKey.wasPressed()) {
             if (client.currentScreen == null) {
                 client.setScreen(StageVoiceModMenu.createConfigScreen(null));
+            }
+        }
+        while (debugKey != null && debugKey.wasPressed()) {
+            debugEnabled = !debugEnabled;
+            if (client.player != null) {
+                client.player.sendMessage(Text.literal(
+                        debugEnabled
+                                ? "[NON调试] 已开启，将在阶段或音频 band 变化时显示状态。"
+                                : "[NON调试] 已关闭。"), false);
+                if (debugEnabled) {
+                    for (TrackedInstance tracked : TRACKED.values()) {
+                        sendDebugStatus(client, tracked);
+                    }
+                }
             }
         }
     }
@@ -238,7 +272,8 @@ public final class StageVoiceClient implements ClientModInitializer {
 
     private static void registerQueuedStarts(MinecraftClient client, long nowTick, long nowMillis,
                                              Set<UUID> seen,
-                                             Map<UUID, PlayerEntity> anchors) {
+                                             Map<UUID, PlayerEntity> anchors,
+                                             Map<UUID, Set<UUID>> actorIdsByInstance) {
         Iterator<Map.Entry<UUID, QueuedStart>> iterator = QUEUED_STARTS.entrySet().iterator();
         while (iterator.hasNext()) {
             Map.Entry<UUID, QueuedStart> entry = iterator.next();
@@ -248,18 +283,23 @@ public final class StageVoiceClient implements ClientModInitializer {
 
             UUID instanceId = entry.getKey();
             seen.add(instanceId);
+            actorIdsByInstance
+                    .computeIfAbsent(instanceId, ignored -> new HashSet<>())
+                    .addAll(start.actorUuids);
             anchors.put(instanceId, preferLocalPlayer(anchors.get(instanceId), anchor, client.player));
             observeStage(
                     instanceId,
                     anchor,
                     start.stageIndex,
                     start.stageCount,
+                    actorIdsByInstance.get(instanceId).size(),
                     start.stageStartTick,
                     start.animationId,
                     start.actorKeys,
                     "",
                     "",
                     "",
+                    List.of(),
                     nowTick,
                     nowMillis);
             iterator.remove();
@@ -267,7 +307,8 @@ public final class StageVoiceClient implements ClientModInitializer {
     }
 
     private static void observeStages(RuntimeAccess access, long nowTick, long nowMillis,
-                                      Map<UUID, PlayerEntity> anchors) {
+                                      Map<UUID, PlayerEntity> anchors,
+                                      Map<UUID, Set<UUID>> actorIdsByInstance) {
         for (Map.Entry<UUID, PlayerEntity> entry : anchors.entrySet()) {
             UUID instanceId = entry.getKey();
             PlayerEntity anchor = entry.getValue();
@@ -277,6 +318,9 @@ public final class StageVoiceClient implements ClientModInitializer {
             int stageIndex = access.findStageIndex(instanceId, stage);
             int stageCount = access.findStageCount(instanceId);
             if (stageIndex < 0 || stageCount <= 0) continue;
+            int actorCount = Math.max(1, actorIdsByInstance
+                    .getOrDefault(instanceId, Set.of())
+                    .size());
 
             TrackedInstance tracked = TRACKED.get(instanceId);
             String queuedAnimationId = tracked == null ? "" : tracked.animationId;
@@ -286,23 +330,26 @@ public final class StageVoiceClient implements ClientModInitializer {
                     anchor,
                     stageIndex,
                     stageCount,
+                    actorCount,
                     access.stageStartTick(instanceId),
                     queuedAnimationId,
                     actorKeys,
                     access.latestAnimationIdContaining(anchor.getUuid()),
                     access.stageAnimationId(stage),
                     access.stageEffectiveAnimationId(stage),
+                    access.stageContentTags(stage),
                     nowTick,
                     nowMillis);
         }
     }
 
     private static void observeStage(UUID instanceId, PlayerEntity anchor,
-                                     int stageIndex, int stageCount,
+                                     int stageIndex, int stageCount, int actorCount,
                                      long stageStartTick,
                                      String animationId, List<String> actorKeys,
                                      String runtimeAnimationId, String stageAnimationId,
                                      String effectiveAnimationId,
+                                     List<String> contentTags,
                                      long nowTick, long nowMillis) {
         TrackedInstance tracked = TRACKED.get(instanceId);
         boolean stageStartKnown = stageStartTick >= 0L;
@@ -316,7 +363,7 @@ public final class StageVoiceClient implements ClientModInitializer {
 
         boolean hasStageAnimation = !stageAnimationId.isBlank() || !effectiveAnimationId.isBlank();
         boolean gaspingDetected = hasStageAnimation
-                ? isGaspingAnimation(List.of(), stageAnimationId, effectiveAnimationId)
+                ? isGaspingAnimation(List.of(), contentTags, stageAnimationId, effectiveAnimationId)
                 : isGaspingAnimation(actorKeys, animationId, runtimeAnimationId);
 
         if (tracked == null) {
@@ -325,7 +372,8 @@ public final class StageVoiceClient implements ClientModInitializer {
                     effectiveStageStart,
                     stageStartKnown,
                     animationId,
-                    actorKeys);
+                    actorKeys,
+                    actorCount);
             TRACKED.put(instanceId, tracked);
         } else {
             if (tracked.animationId.isBlank() && animationId != null && !animationId.isBlank()) {
@@ -344,17 +392,43 @@ public final class StageVoiceClient implements ClientModInitializer {
             }
         }
 
+        int previousActorCount = tracked.actorCount;
+        tracked.actorCount = Math.max(1, actorCount);
         tracked.anchor = anchor;
-        StageBand expectedBand = expectedStageBand(tracked, gaspingDetected, stageIndex, stageCount);
-        if (newStage || tracked.activeBand != expectedBand) {
-            selectStageAudio(tracked, gaspingDetected, stageIndex, stageCount, nowMillis);
+        StageBand expectedBand = expectedStageBand(
+                tracked, gaspingDetected, stageIndex, stageCount, tracked.actorCount);
+        StageBand previousBand = tracked.activeBand;
+        String previousStageName = tracked.stageName;
+        int previousStageCount = tracked.stageCount;
+        tracked.stageName = preferredStageName(stageAnimationId, effectiveAnimationId);
+        tracked.stageCount = stageCount;
+        if (newStage || previousActorCount != tracked.actorCount || tracked.activeBand != expectedBand) {
+            selectStageAudio(tracked, gaspingDetected, stageIndex, stageCount,
+                    tracked.actorCount, nowMillis);
+        }
+        if (debugEnabled && (newStage
+                || previousActorCount != tracked.actorCount
+                || previousBand != tracked.activeBand
+                || !tracked.stageName.equals(previousStageName)
+                || previousStageCount != tracked.stageCount)) {
+            sendDebugStatus(MinecraftClient.getInstance(), tracked);
         }
     }
 
     private static boolean isGaspingAnimation(List<String> actorKeys, String... animationIds) {
+        return isGaspingAnimation(actorKeys, List.of(), animationIds);
+    }
+
+    private static boolean isGaspingAnimation(List<String> actorKeys, List<String> contentTags,
+                                              String... animationIds) {
         if (actorKeys != null) {
             for (String actorKey : actorKeys) {
                 if (containsGaspingMarker(actorKey)) return true;
+            }
+        }
+        if (contentTags != null) {
+            for (String contentTag : contentTags) {
+                if (containsGaspingMarker(contentTag)) return true;
             }
         }
         for (String animationId : animationIds) {
@@ -365,7 +439,10 @@ public final class StageVoiceClient implements ClientModInitializer {
 
     private static boolean containsGaspingMarker(String value) {
         if (value == null || value.isBlank()) return false;
-        String normalized = value.toLowerCase(Locale.ROOT).replace('\\', '/');
+        String normalized = value.toLowerCase(Locale.ROOT)
+                .replace('\\', '/')
+                .replace('-', '_')
+                .replace(' ', '_');
         for (String marker : GASPING_MARKERS) {
             if (normalized.contains(marker)) return true;
         }
@@ -373,7 +450,8 @@ public final class StageVoiceClient implements ClientModInitializer {
     }
 
     private static void selectStageAudio(TrackedInstance tracked, boolean gasping,
-                                         int stageIndex, int stageCount, long nowMillis) {
+                                         int stageIndex, int stageCount, int actorCount,
+                                         long nowMillis) {
         if (gasping) {
             tracked.activeBand = StageBand.GASPING;
             tracked.nextSoundMillis = delayDeadline(nowMillis);
@@ -384,15 +462,61 @@ public final class StageVoiceClient implements ClientModInitializer {
             tracked.nextSoundMillis = nowMillis;
             return;
         }
-        tracked.activeBand = StageBand.HIGH;
+        tracked.activeBand = progressiveBand(stageIndex, stageCount, actorCount);
         tracked.nextSoundMillis = delayDeadline(nowMillis);
     }
 
     private static StageBand expectedStageBand(TrackedInstance tracked, boolean gasping,
-                                               int stageIndex, int stageCount) {
+                                               int stageIndex, int stageCount, int actorCount) {
         if (gasping) return StageBand.GASPING;
         if (stageIndex == stageCount - 1) return StageBand.CLIMAX;
+        return progressiveBand(stageIndex, stageCount, actorCount);
+    }
+
+    private static StageBand progressiveBand(int stageIndex, int stageCount, int actorCount) {
+        if (actorCount == 1) return singlePlayerProgressiveBand(stageIndex, stageCount);
+        return progressiveBand(stageIndex, stageCount);
+    }
+
+    private static StageBand singlePlayerProgressiveBand(int stageIndex, int stageCount) {
+        if (stageIndex == 0) return StageBand.LOW;
+        int medCount = Math.max(0, (stageCount - 1) / 2);
+        return stageIndex <= medCount ? StageBand.MED : StageBand.HIGH;
+    }
+
+    private static StageBand progressiveBand(int stageIndex, int stageCount) {
+        if (stageCount <= 2) return StageBand.HIGH;
+        if (stageIndex == 0) return StageBand.LOW;
+        if (stageCount == 3) return StageBand.HIGH;
+        if (stageIndex == 1) return StageBand.MED;
         return StageBand.HIGH;
+    }
+
+    private static String preferredStageName(String stageAnimationId, String effectiveAnimationId) {
+        if (effectiveAnimationId != null && !effectiveAnimationId.isBlank()) {
+            return effectiveAnimationId;
+        }
+        if (stageAnimationId != null && !stageAnimationId.isBlank()) {
+            return stageAnimationId;
+        }
+        return "unknown";
+    }
+
+    private static void sendDebugStatus(MinecraftClient client, TrackedInstance tracked) {
+        if (!debugEnabled || client == null || client.player == null
+                || tracked == null || tracked.anchor != client.player || tracked.activeBand == null) {
+            return;
+        }
+        VoicePack pack = voicePack(tracked.activeBand);
+        String stage = tracked.stageName == null || tracked.stageName.isBlank()
+                ? "unknown"
+                : tracked.stageName;
+        String count = tracked.stageCount > 0 ? (tracked.stageIndex + 1) + "/" + tracked.stageCount : "?";
+        client.player.sendMessage(Text.literal(
+                "[NON调试] 阶段 " + count + ": " + stage
+                        + " | player数: " + tracked.actorCount
+                        + " | 音频 band: " + tracked.activeBand.id
+                        + " | 音色包: " + pack.id()), false);
     }
 
     private static PlayerEntity findAnchor(MinecraftClient client, List<UUID> actorUuids) {
@@ -458,12 +582,15 @@ public final class StageVoiceClient implements ClientModInitializer {
     }
 
     private static SoundEvent randomSound(StageBand band) {
-        VoicePack pack = switch (band) {
-            case HIGH -> CONFIG.highPack();
+        return randomSound(voicePack(band), band);
+    }
+
+    private static VoicePack voicePack(StageBand band) {
+        return switch (band) {
+            case LOW, MED, HIGH -> CONFIG.highPack();
             case CLIMAX -> CONFIG.climaxPack();
             case GASPING -> CONFIG.gaspingPack();
         };
-        return randomSound(pack, band);
     }
 
     private static SoundEvent randomSound(VoicePack pack, StageBand band) {
@@ -557,6 +684,8 @@ public final class StageVoiceClient implements ClientModInitializer {
     }
 
     private enum StageBand {
+        LOW,
+        MED,
         HIGH,
         CLIMAX,
         GASPING;
@@ -582,16 +711,20 @@ public final class StageVoiceClient implements ClientModInitializer {
         private String animationId;
         private List<String> actorKeys;
         private PlayerEntity anchor;
+        private String stageName = "";
+        private int stageCount;
+        private int actorCount;
         private StageBand activeBand;
         private long nextSoundMillis;
 
         private TrackedInstance(int stageIndex, long stageStartTick, boolean stageStartKnown,
-                                String animationId, List<String> actorKeys) {
+                                String animationId, List<String> actorKeys, int actorCount) {
             this.stageIndex = stageIndex;
             this.stageStartTick = stageStartTick;
             this.stageStartKnown = stageStartKnown;
             this.animationId = animationId == null ? "" : animationId;
             this.actorKeys = actorKeys == null ? List.of() : List.copyOf(actorKeys);
+            this.actorCount = Math.max(1, actorCount);
         }
     }
 
@@ -631,7 +764,10 @@ public final class StageVoiceClient implements ClientModInitializer {
         private Class<?> stageClass;
         private Method stageAnimationId;
         private Method stageEffectiveAnimationId;
+        private final Method getDefinition;
         private boolean stageMetadataWarningLogged;
+        private Class<?> definitionClass;
+        private Method definitionContentTags;
 
         private RuntimeAccess(Class<?> runtimeClass) throws ReflectiveOperationException {
             latestInstanceContaining = runtimeClass.getMethod(
@@ -641,6 +777,9 @@ public final class StageVoiceClient implements ClientModInitializer {
             currentStage = runtimeClass.getMethod("findCurrentStage", UUID.class);
             findStage = runtimeClass.getMethod("findStage", UUID.class, int.class);
             stageStartTick = runtimeClass.getMethod("findStageStartTick", UUID.class);
+            Class<?> definitions = Class.forName(
+                    "com.nonid.internal.animation.data.AnimationDefinitions");
+            getDefinition = definitions.getMethod("getDefinition", Identifier.class);
         }
 
         private UUID latestInstanceContaining(UUID actorUuid) {
@@ -707,6 +846,35 @@ public final class StageVoiceClient implements ClientModInitializer {
             return invokeStageIdentifier(stage, true);
         }
 
+        private List<String> stageContentTags(Object stage) {
+            return definitionContentTags(stageAnimationId(stage), stageEffectiveAnimationId(stage));
+        }
+
+        private List<String> definitionContentTags(String... ids) {
+            for (String id : ids) {
+                if (id == null || id.isBlank()) continue;
+                try {
+                    Object definition = getDefinition.invoke(null, Identifier.of(id));
+                    if (definition == null) continue;
+                    ensureDefinitionMethods(definition.getClass());
+                    Object tags = definitionContentTags.invoke(definition);
+                    if (tags instanceof Iterable<?> iterable) {
+                        List<String> result = new ArrayList<>();
+                        for (Object tag : iterable) {
+                            if (tag != null) result.add(tag.toString());
+                        }
+                        return List.copyOf(result);
+                    }
+                } catch (ReflectiveOperationException | RuntimeException error) {
+                    if (!stageMetadataWarningLogged) {
+                        stageMetadataWarningLogged = true;
+                        LOGGER.warn("Could not read NeedsOfNature animation content tags", error);
+                    }
+                }
+            }
+            return List.of();
+        }
+
         private String invokeStageIdentifier(Object stage, boolean effective) {
             try {
                 ensureStageMethods(stage.getClass());
@@ -726,6 +894,13 @@ public final class StageVoiceClient implements ClientModInitializer {
             stageClass = currentStageClass;
             stageAnimationId = currentStageClass.getMethod("animationId");
             stageEffectiveAnimationId = currentStageClass.getMethod("effectiveAnimationId");
+        }
+
+        private void ensureDefinitionMethods(Class<?> currentDefinitionClass)
+                throws NoSuchMethodException {
+            if (definitionClass == currentDefinitionClass) return;
+            definitionClass = currentDefinitionClass;
+            definitionContentTags = currentDefinitionClass.getMethod("contentTags");
         }
 
         private static String identifierString(Object value) {
