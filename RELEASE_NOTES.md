@@ -4,15 +4,15 @@
 
 - 新增 `low`、`med` 音频阶段，支持按 NeedsOfNature 动画阶段渐进播放语音。
 - 阶段播放规则调整为：
-  - 多 player 双阶段：`high → climax`
-  - 单 player 双阶段：`low → climax`
-  - 单 player 三阶段：`low → med → climax`
-  - 单 player 四阶段：`low → med → high → climax`
-  - 单 player 五阶段：`low → med → med → high → climax`
-  - 单 player 七阶段：`low → med → med → med → high → high → climax`
-  - 多 player 三阶段：`low → high → climax`
-  - 多 player 四阶段：`low → med → high → climax`
-  - 多 player 五阶段及以上：`low → med → high → high → ... → climax`
+  - 仅包含 `player` 角色的双阶段：`low → climax`
+  - 仅包含 `player` 角色的三阶段：`low → med → climax`
+  - 仅包含 `player` 角色的四阶段：`low → med → high → climax`
+  - 仅包含 `player` 角色的五阶段：`low → med → med → high → climax`
+  - 仅包含 `player` 角色的七阶段：`low → med → med → med → high → high → climax`
+  - 包含其他角色的双阶段：`high → climax`
+  - 包含其他角色的三阶段：`low → high → climax`
+  - 包含其他角色的四阶段：`low → med → high → climax`
+  - 包含其他角色的五阶段及以上：`low → med → high → high → ... → climax`
 - 扩展 `gasping` 状态识别，读取动画定义的 `contentTags`，适配 `on_a_block`、`against_block`、`on_a_wall`、`against_wall`、`stuckfence`、`slimewall`、`on_knees`、`pronebone` 等标记。
 - 内置 11 组音色的 `low`、`med`、`high`、`gasping` 和 `climax` 音频资源，共 1,320 个 OGG 音频。
 - 设置页将原来的 `high 音频包` 显示为 `process 音频包`，并增加 `low`、`med` 音频试听入口。
@@ -40,6 +40,7 @@
 
 - Added five stage-based audio groups: `low`, `med`, `high`, `climax`, and `gasping`.
 - Audio now changes according to the current NeedsOfNature animation stage.
+- The special single-player progression is used only when the animation actor list contains `player` and no other role; animations with other roles retain the 1.3.1 stage mapping.
 - Fixed an issue where entering a single-player animation played the `high` audio immediately.
 - Added Play and Stop buttons below each voice pack selector. Play previews a random clip, while Stop stops the currently playing voice clip.
 - Updated and optimized the audio settings screen for the new stage audio options.

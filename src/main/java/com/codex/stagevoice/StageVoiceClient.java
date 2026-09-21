@@ -462,7 +462,7 @@ public final class StageVoiceClient implements ClientModInitializer {
             tracked.nextSoundMillis = nowMillis;
             return;
         }
-        tracked.activeBand = progressiveBand(stageIndex, stageCount, actorCount);
+        tracked.activeBand = progressiveBand(stageIndex, stageCount, actorCount, tracked.actorKeys);
         tracked.nextSoundMillis = delayDeadline(nowMillis);
     }
 
@@ -470,12 +470,34 @@ public final class StageVoiceClient implements ClientModInitializer {
                                                int stageIndex, int stageCount, int actorCount) {
         if (gasping) return StageBand.GASPING;
         if (stageIndex == stageCount - 1) return StageBand.CLIMAX;
-        return progressiveBand(stageIndex, stageCount, actorCount);
+        return progressiveBand(stageIndex, stageCount, actorCount, tracked.actorKeys);
     }
 
-    private static StageBand progressiveBand(int stageIndex, int stageCount, int actorCount) {
-        if (actorCount == 1) return singlePlayerProgressiveBand(stageIndex, stageCount);
+    private static StageBand progressiveBand(int stageIndex, int stageCount, int actorCount,
+                                             List<String> actorKeys) {
+        if (isSinglePlayerAnimation(actorKeys, actorCount)) {
+            return singlePlayerProgressiveBand(stageIndex, stageCount);
+        }
         return progressiveBand(stageIndex, stageCount);
+    }
+
+    /**
+     * The special 1.3.5 mapping is only for an animation whose actor list is
+     * explicitly a single player. A transiently missing remote actor must not
+     * turn a multi-role animation into the single-player mapping.
+     */
+    private static boolean isSinglePlayerAnimation(List<String> actorKeys, int actorCount) {
+        if (actorKeys != null && !actorKeys.isEmpty()) {
+            return actorKeys.size() == 1
+                    && "player".equals(normalizeActorKey(actorKeys.get(0)));
+        }
+        return actorCount == 1;
+    }
+
+    private static String normalizeActorKey(String actorKey) {
+        return actorKey == null
+                ? ""
+                : actorKey.trim().toLowerCase(Locale.ROOT).replace('-', '_');
     }
 
     private static StageBand singlePlayerProgressiveBand(int stageIndex, int stageCount) {

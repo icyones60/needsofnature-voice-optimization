@@ -48,9 +48,9 @@ There are currently no confirmed mod conflicts, but compatibility issues may occ
 
 ## Trigger Rules
 
-- Two-stage multi-player animations use `high` then `climax`.
-- Single-player animations use `low`, then `med` for the first half of the pre-climax stages, then `high`, followed by `climax` (for example, four stages use `low`, `med`, `high`, `climax`; seven stages use `low`, `med`, `med`, `med`, `high`, `high`, `climax`).
-- Multi-player animations use `high` then `climax` for two stages, `low`, `high`, then `climax` for three stages, `low`, `med`, `high`, then `climax` for four stages, and `low`, `med`, then `high` for all remaining pre-climax stages for five or more stages.
+- Two-stage animations with other roles use `high` then `climax`.
+- Animations whose actor list contains only `player` use `low`, then `med` for the first half of the pre-climax stages, then `high`, followed by `climax` (for example, four stages use `low`, `med`, `high`, `climax`; seven stages use `low`, `med`, `med`, `med`, `high`, `high`, `climax`).
+- All animations with other roles keep the 1.3.1 mapping: `high` then `climax` for two stages, `low`, `high`, then `climax` for three stages, `low`, `med`, `high`, then `climax` for four stages, and `low`, `med`, then `high` for all remaining pre-climax stages for five or more stages.
 - Stage audio except `climax` starts after the configured delay.
 - `gasping` is used after the configured delay when animation metadata or identifiers contain defeat, block, wall, fence, slime-wall, or prone-state markers.
 - A single-stage animation is treated as its final stage and therefore uses `climax`.
