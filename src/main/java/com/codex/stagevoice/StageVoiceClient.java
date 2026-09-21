@@ -534,9 +534,12 @@ public final class StageVoiceClient implements ClientModInitializer {
                 ? "unknown"
                 : tracked.stageName;
         String count = tracked.stageCount > 0 ? (tracked.stageIndex + 1) + "/" + tracked.stageCount : "?";
+        String animationMode = isSinglePlayerAnimation(tracked.actorKeys, tracked.actorCount)
+                ? "单player"
+                : "其他角色";
         client.player.sendMessage(Text.literal(
                 "[NON调试] 阶段 " + count + ": " + stage
-                        + " | player数: " + tracked.actorCount
+                        + " | 动画模式: " + animationMode
                         + " | 音频 band: " + tracked.activeBand.id
                         + " | 音色包: " + pack.id()), false);
     }
