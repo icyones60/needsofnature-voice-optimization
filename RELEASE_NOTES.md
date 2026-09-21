@@ -1,3 +1,13 @@
+# v1.3.6
+
+## 修复
+
+- 修复了与其他生物发生动画时的音频错误。
+
+## English
+
+- Fixed audio errors when animations involve other creatures.
+
 # v1.3.5
 
 ## 功能

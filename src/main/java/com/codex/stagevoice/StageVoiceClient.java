@@ -482,7 +482,7 @@ public final class StageVoiceClient implements ClientModInitializer {
     }
 
     /**
-     * The special 1.3.5 mapping is only for an animation whose actor list is
+     * The special single-player mapping is only for an animation whose actor list is
      * explicitly a single player. A transiently missing remote actor must not
      * turn a multi-role animation into the single-player mapping.
      */

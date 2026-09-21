@@ -57,7 +57,7 @@ There are currently no confirmed mod conflicts, but compatibility issues may occ
 
 ## Installation
 
-1. Download `needsofnature-voice-optimization-1.3.5.jar` from [Releases](../../releases).
+1. Download `needsofnature-voice-optimization-1.3.6.jar` from [Releases](../../releases).
 2. Place the JAR in the `mods` directory of your Minecraft instance.
 3. Start the game and open the configuration screen through Mod Menu, or use `打开音效设置` under the `NON音频优化` key category in the controls screen. Use `打开调试功能` to toggle chat diagnostics.
 
